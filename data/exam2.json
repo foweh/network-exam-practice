@@ -1,0 +1,2069 @@
+{
+  "meta": {
+    "title": "计算机网络期末试题（卷二）",
+    "course": "Computer Networks",
+    "reference": "谢希仁《计算机网络》第8版 知识框架",
+    "total": {
+      "choice": 100,
+      "judge": 40,
+      "fill": 40,
+      "essay": 0
+    },
+    "categories": [
+      "ch01_概述与体系结构",
+      "ch02_物理层",
+      "ch03_数据链路层",
+      "ch04_网络层",
+      "ch05_传输层",
+      "ch06_应用层",
+      "ch07_网络安全与新趋势"
+    ]
+  },
+  "choices": [
+    {
+      "id": 1,
+      "category": "ch01_概述与体系结构",
+      "difficulty": 1,
+      "question": "OSI参考模型中，自下而上第一个提供端到端服务的层次是",
+      "options": {
+        "A": "数据链路层",
+        "B": "传输层",
+        "C": "会话层",
+        "D": "应用层"
+      },
+      "answer": "B",
+      "explanation": ""
+    },
+    {
+      "id": 2,
+      "category": "ch04_网络层",
+      "difficulty": 1,
+      "question": "TCP/IP协议栈中，传输层的主要协议是",
+      "options": {
+        "A": "IP和ICMP",
+        "B": "TCP和UDP",
+        "C": "HTTP和FTP",
+        "D": "ARP和RARP"
+      },
+      "answer": "B",
+      "explanation": ""
+    },
+    {
+      "id": 3,
+      "category": "ch04_网络层",
+      "difficulty": 1,
+      "question": "以下哪个不是路由协议",
+      "options": {
+        "A": "OSPF",
+        "B": "RIP",
+        "C": "BGP",
+        "D": "DNS"
+      },
+      "answer": "D",
+      "explanation": ""
+    },
+    {
+      "id": 4,
+      "category": "ch04_网络层",
+      "difficulty": 1,
+      "question": "IP地址192.168.1.0/24的广播地址是",
+      "options": {
+        "A": "192.168.1.0",
+        "B": "192.168.1.1",
+        "C": "192.168.1.255",
+        "D": "192.168.1.128"
+      },
+      "answer": "C",
+      "explanation": ""
+    },
+    {
+      "id": 5,
+      "category": "ch06_应用层",
+      "difficulty": 1,
+      "question": "HTTP协议默认使用的端口号是",
+      "options": {
+        "A": "21",
+        "B": "25",
+        "C": "80",
+        "D": "443"
+      },
+      "answer": "C",
+      "explanation": ""
+    },
+    {
+      "id": 6,
+      "category": "ch07_网络安全与新趋势",
+      "difficulty": 1,
+      "question": "以下哪种交换方式延迟最小",
+      "options": {
+        "A": "电路交换",
+        "B": "报文交换",
+        "C": "分组交换",
+        "D": "信元交换"
+      },
+      "answer": "A",
+      "explanation": ""
+    },
+    {
+      "id": 7,
+      "category": "ch05_传输层",
+      "difficulty": 1,
+      "question": "TCP建立连接需要几次握手",
+      "options": {
+        "A": "1次",
+        "B": "2次",
+        "C": "3次",
+        "D": "4次"
+      },
+      "answer": "C",
+      "explanation": ""
+    },
+    {
+      "id": 8,
+      "category": "ch04_网络层",
+      "difficulty": 1,
+      "question": "子网掩码255.255.255.224对应的CIDR前缀是",
+      "options": {
+        "A": "/24",
+        "B": "/25",
+        "C": "/26",
+        "D": "/27"
+      },
+      "answer": "D",
+      "explanation": ""
+    },
+    {
+      "id": 9,
+      "category": "ch06_应用层",
+      "difficulty": 1,
+      "question": "以下哪个协议属于应用层",
+      "options": {
+        "A": "TCP",
+        "B": "IP",
+        "C": "DNS",
+        "D": "ARP"
+      },
+      "answer": "C",
+      "explanation": ""
+    },
+    {
+      "id": 10,
+      "category": "ch01_概述与体系结构",
+      "difficulty": 1,
+      "question": "交换机工作在OSI模型的第几层",
+      "options": {
+        "A": "物理层",
+        "B": "数据链路层",
+        "C": "网络层",
+        "D": "传输层"
+      },
+      "answer": "B",
+      "explanation": ""
+    },
+    {
+      "id": 11,
+      "category": "ch05_传输层",
+      "difficulty": 1,
+      "question": "UDP头部长度固定为多少字节",
+      "options": {
+        "A": "8",
+        "B": "16",
+        "C": "20",
+        "D": "32"
+      },
+      "answer": "A",
+      "explanation": ""
+    },
+    {
+      "id": 12,
+      "category": "ch04_网络层",
+      "difficulty": 1,
+      "question": "以下哪个不是私有IP地址段",
+      "options": {
+        "A": "10.0.0.0/8",
+        "B": "172.16.0.0/12",
+        "C": "192.168.0.0/16",
+        "D": "169.254.0.0/16"
+      },
+      "answer": "D",
+      "explanation": ""
+    },
+    {
+      "id": 13,
+      "category": "ch05_传输层",
+      "difficulty": 1,
+      "question": "TCP使用什么机制实现可靠传输",
+      "options": {
+        "A": "检错码",
+        "B": "确认和重传",
+        "C": "流量控制",
+        "D": "以上都是"
+      },
+      "answer": "D",
+      "explanation": ""
+    },
+    {
+      "id": 14,
+      "category": "ch01_概述与体系结构",
+      "difficulty": 1,
+      "question": "路由器工作在OSI模型的第几层",
+      "options": {
+        "A": "物理层",
+        "B": "数据链路层",
+        "C": "网络层",
+        "D": "传输层"
+      },
+      "answer": "C",
+      "explanation": ""
+    },
+    {
+      "id": 15,
+      "category": "ch04_网络层",
+      "difficulty": 1,
+      "question": "IPv4地址总共有多少位",
+      "options": {
+        "A": "16",
+        "B": "32",
+        "C": "48",
+        "D": "128"
+      },
+      "answer": "B",
+      "explanation": ""
+    },
+    {
+      "id": 16,
+      "category": "ch01_概述与体系结构",
+      "difficulty": 1,
+      "question": "以下哪种拓扑结构中，一个节点故障会导致全网瘫痪",
+      "options": {
+        "A": "星型",
+        "B": "总线型",
+        "C": "环型",
+        "D": "网状型"
+      },
+      "answer": "B",
+      "explanation": ""
+    },
+    {
+      "id": 17,
+      "category": "ch06_应用层",
+      "difficulty": 1,
+      "question": "DNS的主要功能是",
+      "options": {
+        "A": "分配IP地址",
+        "B": "域名解析",
+        "C": "路由选择",
+        "D": "差错控制"
+      },
+      "answer": "B",
+      "explanation": ""
+    },
+    {
+      "id": 18,
+      "category": "ch05_传输层",
+      "difficulty": 1,
+      "question": "TCP的滑动窗口用于实现",
+      "options": {
+        "A": "差错控制",
+        "B": "流量控制",
+        "C": "拥塞控制",
+        "D": "路由选择"
+      },
+      "answer": "B",
+      "explanation": ""
+    },
+    {
+      "id": 19,
+      "category": "ch04_网络层",
+      "difficulty": 1,
+      "question": "以下哪个是链路状态路由协议",
+      "options": {
+        "A": "RIP",
+        "B": "OSPF",
+        "C": "BGP",
+        "D": "EGP"
+      },
+      "answer": "B",
+      "explanation": ""
+    },
+    {
+      "id": 20,
+      "category": "ch06_应用层",
+      "difficulty": 1,
+      "question": "HTTP状态码404表示",
+      "options": {
+        "A": "服务器错误",
+        "B": "请求成功",
+        "C": "资源未找到",
+        "D": "重定向"
+      },
+      "answer": "C",
+      "explanation": ""
+    },
+    {
+      "id": 21,
+      "category": "ch03_数据链路层",
+      "difficulty": 1,
+      "question": "MAC地址的长度是多少位",
+      "options": {
+        "A": "32",
+        "B": "48",
+        "C": "64",
+        "D": "128"
+      },
+      "answer": "B",
+      "explanation": ""
+    },
+    {
+      "id": 22,
+      "category": "ch07_网络安全与新趋势",
+      "difficulty": 1,
+      "question": "以下哪个协议用于电子邮件发送",
+      "options": {
+        "A": "POP3",
+        "B": "SMTP",
+        "C": "IMAP",
+        "D": "HTTP"
+      },
+      "answer": "B",
+      "explanation": ""
+    },
+    {
+      "id": 23,
+      "category": "ch07_网络安全与新趋势",
+      "difficulty": 1,
+      "question": "NAT的主要作用是",
+      "options": {
+        "A": "加密数据",
+        "B": "地址转换",
+        "C": "差错检测",
+        "D": "流量控制"
+      },
+      "answer": "B",
+      "explanation": ""
+    },
+    {
+      "id": 24,
+      "category": "ch05_传输层",
+      "difficulty": 1,
+      "question": "TCP释放连接需要几次挥手",
+      "options": {
+        "A": "2次",
+        "B": "3次",
+        "C": "4次",
+        "D": "5次"
+      },
+      "answer": "C",
+      "explanation": ""
+    },
+    {
+      "id": 25,
+      "category": "ch04_网络层",
+      "difficulty": 1,
+      "question": "以下哪个不属于TCP/IP应用层协议",
+      "options": {
+        "A": "FTP",
+        "B": "SSH",
+        "C": "ICMP",
+        "D": "SNMP"
+      },
+      "answer": "C",
+      "explanation": ""
+    },
+    {
+      "id": 26,
+      "category": "ch03_数据链路层",
+      "difficulty": 1,
+      "question": "CSMA/CD协议用于",
+      "options": {
+        "A": "令牌环网",
+        "B": "以太网",
+        "C": "无线局域网",
+        "D": "广域网"
+      },
+      "answer": "B",
+      "explanation": ""
+    },
+    {
+      "id": 27,
+      "category": "ch03_数据链路层",
+      "difficulty": 1,
+      "question": "VLAN的主要作用是",
+      "options": {
+        "A": "提高带宽",
+        "B": "隔离广播域",
+        "C": "加密数据",
+        "D": "路由选择"
+      },
+      "answer": "B",
+      "explanation": ""
+    },
+    {
+      "id": 28,
+      "category": "ch04_网络层",
+      "difficulty": 1,
+      "question": "IPv6地址长度为多少位",
+      "options": {
+        "A": "32",
+        "B": "64",
+        "C": "128",
+        "D": "256"
+      },
+      "answer": "C",
+      "explanation": ""
+    },
+    {
+      "id": 29,
+      "category": "ch07_网络安全与新趋势",
+      "difficulty": 1,
+      "question": "以下哪种设备可以隔离冲突域但不能隔离广播域",
+      "options": {
+        "A": "集线器",
+        "B": "交换机",
+        "C": "路由器",
+        "D": "网桥"
+      },
+      "answer": "B",
+      "explanation": ""
+    },
+    {
+      "id": 30,
+      "category": "ch04_网络层",
+      "difficulty": 1,
+      "question": "ARP协议的功能是",
+      "options": {
+        "A": "将IP地址解析为MAC地址",
+        "B": "将MAC地址解析为IP地址",
+        "C": "域名解析",
+        "D": "路由选择"
+      },
+      "answer": "A",
+      "explanation": ""
+    },
+    {
+      "id": 31,
+      "category": "ch05_传输层",
+      "difficulty": 1,
+      "question": "TCP拥塞控制中，慢开始阈值ssthresh的作用是",
+      "options": {
+        "A": "限制发送速率",
+        "B": "决定拥塞窗口增长方式",
+        "C": "决定重传时机",
+        "D": "以上都不是"
+      },
+      "answer": "B",
+      "explanation": ""
+    },
+    {
+      "id": 32,
+      "category": "ch05_传输层",
+      "difficulty": 1,
+      "question": "以下哪个是无连接的传输层协议",
+      "options": {
+        "A": "TCP",
+        "B": "UDP",
+        "C": "SCTP",
+        "D": "DCCP"
+      },
+      "answer": "B",
+      "explanation": ""
+    },
+    {
+      "id": 33,
+      "category": "ch06_应用层",
+      "difficulty": 1,
+      "question": "FTP使用几个端口",
+      "options": {
+        "A": "1个",
+        "B": "2个",
+        "C": "3个",
+        "D": "4个"
+      },
+      "answer": "B",
+      "explanation": ""
+    },
+    {
+      "id": 34,
+      "category": "ch05_传输层",
+      "difficulty": 1,
+      "question": "以下哪个协议运行在传输层之上应用层之下",
+      "options": {
+        "A": "IP",
+        "B": "TCP",
+        "C": "ICMP",
+        "D": "ARP"
+      },
+      "answer": "B",
+      "explanation": ""
+    },
+    {
+      "id": 35,
+      "category": "ch04_网络层",
+      "difficulty": 1,
+      "question": "子网划分中，/28可以划分多少个主机",
+      "options": {
+        "A": "14",
+        "B": "16",
+        "C": "30",
+        "D": "32"
+      },
+      "answer": "A",
+      "explanation": ""
+    },
+    {
+      "id": 36,
+      "category": "ch07_网络安全与新趋势",
+      "difficulty": 1,
+      "question": "以下哪种交换延迟最大",
+      "options": {
+        "A": "直通交换",
+        "B": "存储转发交换",
+        "C": "碎片隔离交换",
+        "D": "以上相同"
+      },
+      "answer": "B",
+      "explanation": ""
+    },
+    {
+      "id": 37,
+      "category": "ch04_网络层",
+      "difficulty": 1,
+      "question": "BGP协议属于",
+      "options": {
+        "A": "内部网关协议",
+        "B": "外部网关协议",
+        "C": "链路状态协议",
+        "D": "距离矢量协议"
+      },
+      "answer": "B",
+      "explanation": ""
+    },
+    {
+      "id": 38,
+      "category": "ch04_网络层",
+      "difficulty": 1,
+      "question": "以下哪个是有类路由协议",
+      "options": {
+        "A": "OSPF",
+        "B": "RIPv1",
+        "C": "EIGRP",
+        "D": "BGP"
+      },
+      "answer": "B",
+      "explanation": ""
+    },
+    {
+      "id": 39,
+      "category": "ch05_传输层",
+      "difficulty": 1,
+      "question": "TCP保持连接的机制称为",
+      "options": {
+        "A": "心跳",
+        "B": "keepalive",
+        "C": "轮询",
+        "D": "超时"
+      },
+      "answer": "B",
+      "explanation": ""
+    },
+    {
+      "id": 40,
+      "category": "ch07_网络安全与新趋势",
+      "difficulty": 1,
+      "question": "以下哪个协议用于网络管理",
+      "options": {
+        "A": "SNMP",
+        "B": "SMTP",
+        "C": "FTP",
+        "D": "DNS"
+      },
+      "answer": "A",
+      "explanation": ""
+    },
+    {
+      "id": 41,
+      "category": "ch03_数据链路层",
+      "difficulty": 1,
+      "question": "PPP协议提供的功能不包括",
+      "options": {
+        "A": "封装成帧",
+        "B": "差错检测",
+        "C": "流量控制",
+        "D": "路由选择"
+      },
+      "answer": "D",
+      "explanation": ""
+    },
+    {
+      "id": 42,
+      "category": "ch07_网络安全与新趋势",
+      "difficulty": 1,
+      "question": "以下哪个不是无线局域网标准",
+      "options": {
+        "A": "802.11a",
+        "B": "802.11b",
+        "C": "802.3",
+        "D": "802.11n"
+      },
+      "answer": "C",
+      "explanation": ""
+    },
+    {
+      "id": 43,
+      "category": "ch07_网络安全与新趋势",
+      "difficulty": 1,
+      "question": "TTL字段的作用是",
+      "options": {
+        "A": "标识数据包优先级",
+        "B": "防止数据包无限循环",
+        "C": "标识协议类型",
+        "D": "校验数据"
+      },
+      "answer": "B",
+      "explanation": ""
+    },
+    {
+      "id": 44,
+      "category": "ch07_网络安全与新趋势",
+      "difficulty": 1,
+      "question": "以下哪种攻击属于DoS攻击",
+      "options": {
+        "A": "嗅探",
+        "B": "SYN Flood",
+        "C": "中间人攻击",
+        "D": "跨站脚本"
+      },
+      "answer": "B",
+      "explanation": ""
+    },
+    {
+      "id": 45,
+      "category": "ch07_网络安全与新趋势",
+      "difficulty": 1,
+      "question": "SSL/TLS工作在哪一层",
+      "options": {
+        "A": "网络层",
+        "B": "传输层和应用层之间",
+        "C": "数据链路层",
+        "D": "物理层"
+      },
+      "answer": "B",
+      "explanation": ""
+    },
+    {
+      "id": 46,
+      "category": "ch04_网络层",
+      "difficulty": 1,
+      "question": "以下哪个IP地址是回环地址",
+      "options": {
+        "A": "0.0.0.0",
+        "B": "127.0.0.1",
+        "C": "255.255.255.255",
+        "D": "169.254.0.1"
+      },
+      "answer": "B",
+      "explanation": ""
+    },
+    {
+      "id": 47,
+      "category": "ch05_传输层",
+      "difficulty": 1,
+      "question": "滑动窗口协议中，窗口大小为N时，发送方最多可以发送",
+      "options": {
+        "A": "N个帧",
+        "B": "N+1个帧",
+        "C": "2N个帧",
+        "D": "无限个"
+      },
+      "answer": "A",
+      "explanation": ""
+    },
+    {
+      "id": 48,
+      "category": "ch04_网络层",
+      "difficulty": 1,
+      "question": "以下哪个是距离矢量路由协议",
+      "options": {
+        "A": "OSPF",
+        "B": "IS-IS",
+        "C": "RIP",
+        "D": "BGP"
+      },
+      "answer": "C",
+      "explanation": ""
+    },
+    {
+      "id": 49,
+      "category": "ch03_数据链路层",
+      "difficulty": 1,
+      "question": "以太网帧的最小长度是",
+      "options": {
+        "A": "32字节",
+        "B": "64字节",
+        "C": "128字节",
+        "D": "1518字节"
+      },
+      "answer": "B",
+      "explanation": ""
+    },
+    {
+      "id": 50,
+      "category": "ch06_应用层",
+      "difficulty": 1,
+      "question": "以下哪个端口用于HTTPS",
+      "options": {
+        "A": "80",
+        "B": "443",
+        "C": "8080",
+        "D": "8443"
+      },
+      "answer": "B",
+      "explanation": ""
+    },
+    {
+      "id": 51,
+      "category": "ch05_传输层",
+      "difficulty": 1,
+      "question": "TCP头部中，序列号字段的作用是",
+      "options": {
+        "A": "标识源端口",
+        "B": "保证数据按序到达",
+        "C": "校验和",
+        "D": "窗口大小"
+      },
+      "answer": "B",
+      "explanation": ""
+    },
+    {
+      "id": 52,
+      "category": "ch01_概述与体系结构",
+      "difficulty": 1,
+      "question": "以下哪种拓扑中任意两点间有多条路径",
+      "options": {
+        "A": "星型",
+        "B": "总线型",
+        "C": "网状型",
+        "D": "环型"
+      },
+      "answer": "C",
+      "explanation": ""
+    },
+    {
+      "id": 53,
+      "category": "ch04_网络层",
+      "difficulty": 1,
+      "question": "ICMP协议属于哪一层",
+      "options": {
+        "A": "数据链路层",
+        "B": "网络层",
+        "C": "传输层",
+        "D": "应用层"
+      },
+      "answer": "B",
+      "explanation": ""
+    },
+    {
+      "id": 54,
+      "category": "ch05_传输层",
+      "difficulty": 1,
+      "question": "以下哪个不是拥塞控制算法",
+      "options": {
+        "A": "慢开始",
+        "B": "拥塞避免",
+        "C": "快重传",
+        "D": "差分服务"
+      },
+      "answer": "D",
+      "explanation": ""
+    },
+    {
+      "id": 55,
+      "category": "ch04_网络层",
+      "difficulty": 1,
+      "question": "CIDR的主要优点是",
+      "options": {
+        "A": "提高安全性",
+        "B": "减少路由表项",
+        "C": "加快传输速度",
+        "D": "简化协议"
+      },
+      "answer": "B",
+      "explanation": ""
+    },
+    {
+      "id": 56,
+      "category": "ch07_网络安全与新趋势",
+      "difficulty": 1,
+      "question": "以下哪个协议用于动态主机配置",
+      "options": {
+        "A": "DNS",
+        "B": "DHCP",
+        "C": "ARP",
+        "D": "NTP"
+      },
+      "answer": "B",
+      "explanation": ""
+    },
+    {
+      "id": 57,
+      "category": "ch05_传输层",
+      "difficulty": 1,
+      "question": "TCP使用的流量控制机制是",
+      "options": {
+        "A": "漏桶算法",
+        "B": "滑动窗口",
+        "C": "令牌桶",
+        "D": "优先级队列"
+      },
+      "answer": "B",
+      "explanation": ""
+    },
+    {
+      "id": 58,
+      "category": "ch06_应用层",
+      "difficulty": 1,
+      "question": "以下哪个不是应用层协议",
+      "options": {
+        "A": "Telnet",
+        "B": "SSH",
+        "C": "IP",
+        "D": "TFTP"
+      },
+      "answer": "C",
+      "explanation": ""
+    },
+    {
+      "id": 59,
+      "category": "ch03_数据链路层",
+      "difficulty": 1,
+      "question": "交换机根据什么转发帧",
+      "options": {
+        "A": "IP地址",
+        "B": "MAC地址",
+        "C": "端口号",
+        "D": "域名"
+      },
+      "answer": "B",
+      "explanation": ""
+    },
+    {
+      "id": 60,
+      "category": "ch04_网络层",
+      "difficulty": 1,
+      "question": "以下哪个是面向连接的网络层协议",
+      "options": {
+        "A": "IP",
+        "B": "ICMP",
+        "C": "X.25",
+        "D": "ARP"
+      },
+      "answer": "C",
+      "explanation": ""
+    },
+    {
+      "id": 61,
+      "category": "ch05_传输层",
+      "difficulty": 1,
+      "question": "TCP最大段长度MSS的作用是",
+      "options": {
+        "A": "限制TCP头部大小",
+        "B": "避免IP分片",
+        "C": "控制窗口大小",
+        "D": "加速传输"
+      },
+      "answer": "B",
+      "explanation": ""
+    },
+    {
+      "id": 62,
+      "category": "ch03_数据链路层",
+      "difficulty": 1,
+      "question": "以下哪种编码用于以太网",
+      "options": {
+        "A": "NRZ",
+        "B": "曼彻斯特编码",
+        "C": "4B/5B",
+        "D": "以上都有"
+      },
+      "answer": "D",
+      "explanation": ""
+    },
+    {
+      "id": 63,
+      "category": "ch04_网络层",
+      "difficulty": 1,
+      "question": "网络层的主要功能不包括",
+      "options": {
+        "A": "路由选择",
+        "B": "拥塞控制",
+        "C": "差错控制",
+        "D": "流量控制"
+      },
+      "answer": "D",
+      "explanation": ""
+    },
+    {
+      "id": 64,
+      "category": "ch04_网络层",
+      "difficulty": 1,
+      "question": "以下哪个是多播IP地址段",
+      "options": {
+        "A": "1.0.0.0-126.255.255.255",
+        "B": "128.0.0.0-191.255.255.255",
+        "C": "224.0.0.0-239.255.255.255",
+        "D": "240.0.0.0-255.255.255.255"
+      },
+      "answer": "C",
+      "explanation": ""
+    },
+    {
+      "id": 65,
+      "category": "ch07_网络安全与新趋势",
+      "difficulty": 1,
+      "question": "以下哪个协议用于时间同步",
+      "options": {
+        "A": "NTP",
+        "B": "SNMP",
+        "C": "DHCP",
+        "D": "DNS"
+      },
+      "answer": "A",
+      "explanation": ""
+    },
+    {
+      "id": 66,
+      "category": "ch07_网络安全与新趋势",
+      "difficulty": 1,
+      "question": "帧中继是哪一层的技术",
+      "options": {
+        "A": "物理层",
+        "B": "数据链路层",
+        "C": "网络层",
+        "D": "传输层"
+      },
+      "answer": "B",
+      "explanation": ""
+    },
+    {
+      "id": 67,
+      "category": "ch05_传输层",
+      "difficulty": 1,
+      "question": "以下哪个不是TCP头部字段",
+      "options": {
+        "A": "源端口",
+        "B": "目的IP",
+        "C": "序列号",
+        "D": "窗口大小"
+      },
+      "answer": "B",
+      "explanation": ""
+    },
+    {
+      "id": 68,
+      "category": "ch07_网络安全与新趋势",
+      "difficulty": 1,
+      "question": "STP协议的作用是",
+      "options": {
+        "A": "路由选择",
+        "B": "消除环路",
+        "C": "流量控制",
+        "D": "差错检测"
+      },
+      "answer": "B",
+      "explanation": ""
+    },
+    {
+      "id": 69,
+      "category": "ch04_网络层",
+      "difficulty": 1,
+      "question": "以下哪种NAT类型允许多个内网主机共用一个公网IP",
+      "options": {
+        "A": "静态NAT",
+        "B": "动态NAT",
+        "C": "PAT",
+        "D": "以上都可以"
+      },
+      "answer": "C",
+      "explanation": ""
+    },
+    {
+      "id": 70,
+      "category": "ch07_网络安全与新趋势",
+      "difficulty": 1,
+      "question": "QoS的全称是",
+      "options": {
+        "A": "Quality of Service",
+        "B": "Queue of Server",
+        "C": "Query of System",
+        "D": "Queue of Service"
+      },
+      "answer": "A",
+      "explanation": ""
+    },
+    {
+      "id": 71,
+      "category": "ch07_网络安全与新趋势",
+      "difficulty": 1,
+      "question": "以下哪个不是IGP协议",
+      "options": {
+        "A": "RIP",
+        "B": "OSPF",
+        "C": "BGP",
+        "D": "IS-IS"
+      },
+      "answer": "C",
+      "explanation": ""
+    },
+    {
+      "id": 72,
+      "category": "ch05_传输层",
+      "difficulty": 1,
+      "question": "TCP三次握手的第二次发送的标志位是",
+      "options": {
+        "A": "SYN",
+        "B": "SYN+ACK",
+        "C": "ACK",
+        "D": "FIN"
+      },
+      "answer": "B",
+      "explanation": ""
+    },
+    {
+      "id": 73,
+      "category": "ch07_网络安全与新趋势",
+      "difficulty": 1,
+      "question": "以下哪种介质访问控制方法没有冲突",
+      "options": {
+        "A": "CSMA/CD",
+        "B": "CSMA/CA",
+        "C": "令牌传递",
+        "D": "ALOHA"
+      },
+      "answer": "C",
+      "explanation": ""
+    },
+    {
+      "id": 74,
+      "category": "ch06_应用层",
+      "difficulty": 1,
+      "question": "HTTP/2相比HTTP/1.1的改进不包括",
+      "options": {
+        "A": "多路复用",
+        "B": "头部压缩",
+        "C": "服务器推送",
+        "D": "明文传输"
+      },
+      "answer": "D",
+      "explanation": ""
+    },
+    {
+      "id": 75,
+      "category": "ch06_应用层",
+      "difficulty": 1,
+      "question": "以下哪个是应用层网关防火墙工作在",
+      "options": {
+        "A": "网络层",
+        "B": "传输层",
+        "C": "应用层",
+        "D": "数据链路层"
+      },
+      "answer": "C",
+      "explanation": ""
+    },
+    {
+      "id": 76,
+      "category": "ch04_网络层",
+      "difficulty": 1,
+      "question": "子网掩码255.255.0.0对应多少个可用主机",
+      "options": {
+        "A": "254",
+        "B": "65534",
+        "C": "16777214",
+        "D": "4094"
+      },
+      "answer": "B",
+      "explanation": ""
+    },
+    {
+      "id": 77,
+      "category": "ch07_网络安全与新趋势",
+      "difficulty": 1,
+      "question": "以下哪个协议用于远程登录",
+      "options": {
+        "A": "FTP",
+        "B": "Telnet",
+        "C": "SMTP",
+        "D": "POP3"
+      },
+      "answer": "B",
+      "explanation": ""
+    },
+    {
+      "id": 78,
+      "category": "ch05_传输层",
+      "difficulty": 1,
+      "question": "TCP快速重传的触发条件是收到",
+      "options": {
+        "A": "1个重复ACK",
+        "B": "2个重复ACK",
+        "C": "3个重复ACK",
+        "D": "超时"
+      },
+      "answer": "C",
+      "explanation": ""
+    },
+    {
+      "id": 79,
+      "category": "ch07_网络安全与新趋势",
+      "difficulty": 1,
+      "question": "以下哪个不是VPN技术",
+      "options": {
+        "A": "IPSec",
+        "B": "SSL VPN",
+        "C": "PPTP",
+        "D": "VLAN"
+      },
+      "answer": "D",
+      "explanation": ""
+    },
+    {
+      "id": 80,
+      "category": "ch01_概述与体系结构",
+      "difficulty": 1,
+      "question": "网络接口卡NIC工作在OSI的",
+      "options": {
+        "A": "物理层和数据链路层",
+        "B": "网络层",
+        "C": "传输层",
+        "D": "应用层"
+      },
+      "answer": "A",
+      "explanation": ""
+    },
+    {
+      "id": 81,
+      "category": "ch04_网络层",
+      "difficulty": 1,
+      "question": "以下哪个是无类路由协议",
+      "options": {
+        "A": "RIPv1",
+        "B": "RIPv2",
+        "C": "IGRP",
+        "D": "EGP"
+      },
+      "answer": "B",
+      "explanation": ""
+    },
+    {
+      "id": 82,
+      "category": "ch07_网络安全与新趋势",
+      "difficulty": 1,
+      "question": "以下哪种交换方式先接收整个帧再转发",
+      "options": {
+        "A": "直通交换",
+        "B": "存储转发交换",
+        "C": "碎片隔离",
+        "D": "快速转发"
+      },
+      "answer": "B",
+      "explanation": ""
+    },
+    {
+      "id": 83,
+      "category": "ch05_传输层",
+      "difficulty": 1,
+      "question": "UDP校验和为0表示",
+      "options": {
+        "A": "校验错误",
+        "B": "不进行校验",
+        "C": "校验通过",
+        "D": "数据为空"
+      },
+      "answer": "B",
+      "explanation": ""
+    },
+    {
+      "id": 84,
+      "category": "ch07_网络安全与新趋势",
+      "difficulty": 1,
+      "question": "以下哪个协议用于文件传输",
+      "options": {
+        "A": "HTTP",
+        "B": "FTP",
+        "C": "SMTP",
+        "D": "DNS"
+      },
+      "answer": "B",
+      "explanation": ""
+    },
+    {
+      "id": 85,
+      "category": "ch07_网络安全与新趋势",
+      "difficulty": 1,
+      "question": "WLAN中，AP的全称是",
+      "options": {
+        "A": "Access Point",
+        "B": "Application Protocol",
+        "C": "Advanced Process",
+        "D": "Auto Program"
+      },
+      "answer": "A",
+      "explanation": ""
+    },
+    {
+      "id": 86,
+      "category": "ch07_网络安全与新趋势",
+      "difficulty": 1,
+      "question": "以下哪个是链路聚合协议",
+      "options": {
+        "A": "STP",
+        "B": "LACP",
+        "C": "VTP",
+        "D": "CDP"
+      },
+      "answer": "B",
+      "explanation": ""
+    },
+    {
+      "id": 87,
+      "category": "ch05_传输层",
+      "difficulty": 1,
+      "question": "TCP拥塞控制中，快恢复阶段窗口如何变化",
+      "options": {
+        "A": "线性增长",
+        "B": "指数增长",
+        "C": "减半后线性增长",
+        "D": "不变"
+      },
+      "answer": "C",
+      "explanation": ""
+    },
+    {
+      "id": 88,
+      "category": "ch07_网络安全与新趋势",
+      "difficulty": 1,
+      "question": "以下哪个不是无线安全协议",
+      "options": {
+        "A": "WEP",
+        "B": "WPA",
+        "C": "WPA2",
+        "D": "WPA3E"
+      },
+      "answer": "D",
+      "explanation": ""
+    },
+    {
+      "id": 89,
+      "category": "ch04_网络层",
+      "difficulty": 1,
+      "question": "路由表中，默认路由的目的网络是",
+      "options": {
+        "A": "0.0.0.0/0",
+        "B": "127.0.0.0/8",
+        "C": "255.255.255.255/32",
+        "D": "192.168.0.0/16"
+      },
+      "answer": "A",
+      "explanation": ""
+    },
+    {
+      "id": 90,
+      "category": "ch07_网络安全与新趋势",
+      "difficulty": 1,
+      "question": "以下哪个是正向代理的特点",
+      "options": {
+        "A": "客户端不知道代理存在",
+        "B": "客户端知道代理存在",
+        "C": "服务器不知道代理存在",
+        "D": "不需要配置"
+      },
+      "answer": "B",
+      "explanation": ""
+    },
+    {
+      "id": 91,
+      "category": "ch04_网络层",
+      "difficulty": 1,
+      "question": "OSPF使用什么算法计算最短路径",
+      "options": {
+        "A": "Bellman-Ford",
+        "B": "Dijkstra",
+        "C": "Floyd",
+        "D": "Prim"
+      },
+      "answer": "B",
+      "explanation": ""
+    },
+    {
+      "id": 92,
+      "category": "ch06_应用层",
+      "difficulty": 1,
+      "question": "以下哪个端口用于DHCP服务器",
+      "options": {
+        "A": "67",
+        "B": "68",
+        "C": "69",
+        "D": "80"
+      },
+      "answer": "A",
+      "explanation": ""
+    },
+    {
+      "id": 93,
+      "category": "ch03_数据链路层",
+      "difficulty": 1,
+      "question": "以下哪种技术可以实现VLAN间通信",
+      "options": {
+        "A": "集线器",
+        "B": "三层交换机",
+        "C": "网桥",
+        "D": "中继器"
+      },
+      "answer": "B",
+      "explanation": ""
+    },
+    {
+      "id": 94,
+      "category": "ch05_传输层",
+      "difficulty": 1,
+      "question": "TCP窗口缩放选项的作用是",
+      "options": {
+        "A": "加密数据",
+        "B": "扩大窗口大小上限",
+        "C": "压缩头部",
+        "D": "加速传输"
+      },
+      "answer": "B",
+      "explanation": ""
+    },
+    {
+      "id": 95,
+      "category": "ch07_网络安全与新趋势",
+      "difficulty": 1,
+      "question": "以下哪个是反向代理的特点",
+      "options": {
+        "A": "客户端知道代理存在",
+        "B": "客户端不知道代理存在",
+        "C": "需要客户端配置",
+        "D": "只能用于HTTP"
+      },
+      "answer": "B",
+      "explanation": ""
+    },
+    {
+      "id": 96,
+      "category": "ch07_网络安全与新趋势",
+      "difficulty": 1,
+      "question": "以下哪个协议用于网页浏览",
+      "options": {
+        "A": "FTP",
+        "B": "HTTP",
+        "C": "SMTP",
+        "D": "Telnet"
+      },
+      "answer": "B",
+      "explanation": ""
+    },
+    {
+      "id": 97,
+      "category": "ch04_网络层",
+      "difficulty": 1,
+      "question": "IPv4中A类地址的默认子网掩码是",
+      "options": {
+        "A": "255.0.0.0",
+        "B": "255.255.0.0",
+        "C": "255.255.255.0",
+        "D": "255.255.255.255"
+      },
+      "answer": "A",
+      "explanation": ""
+    },
+    {
+      "id": 98,
+      "category": "ch04_网络层",
+      "difficulty": 1,
+      "question": "以下哪种攻击是通过伪造源IP实现的",
+      "options": {
+        "A": "XSS",
+        "B": "DDoS",
+        "C": "CSRF",
+        "D": "SQL注入"
+      },
+      "answer": "B",
+      "explanation": ""
+    },
+    {
+      "id": 99,
+      "category": "ch05_传输层",
+      "difficulty": 1,
+      "question": "以下哪个是传输层以上的协议",
+      "options": {
+        "A": "TCP",
+        "B": "UDP",
+        "C": "SCTP",
+        "D": "以上都是"
+      },
+      "answer": "D",
+      "explanation": ""
+    },
+    {
+      "id": 100,
+      "category": "ch07_网络安全与新趋势",
+      "difficulty": 1,
+      "question": "SDH/SONET属于哪一层技术",
+      "options": {
+        "A": "物理层",
+        "B": "数据链路层",
+        "C": "网络层",
+        "D": "传输层"
+      },
+      "answer": "A",
+      "explanation": ""
+    }
+  ],
+  "judges": [
+    {
+      "id": 1,
+      "category": "ch05_传输层",
+      "difficulty": 1,
+      "question": "TCP是面向连接的可靠传输协议",
+      "answer": true,
+      "explanation": ""
+    },
+    {
+      "id": 2,
+      "category": "ch05_传输层",
+      "difficulty": 1,
+      "question": "UDP提供可靠传输服务",
+      "answer": false,
+      "explanation": ""
+    },
+    {
+      "id": 3,
+      "category": "ch04_网络层",
+      "difficulty": 1,
+      "question": "IP地址是分层结构的",
+      "answer": true,
+      "explanation": ""
+    },
+    {
+      "id": 4,
+      "category": "ch03_数据链路层",
+      "difficulty": 1,
+      "question": "MAC地址是分层结构的",
+      "answer": false,
+      "explanation": ""
+    },
+    {
+      "id": 5,
+      "category": "ch04_网络层",
+      "difficulty": 1,
+      "question": "路由器可以隔离广播域",
+      "answer": true,
+      "explanation": ""
+    },
+    {
+      "id": 6,
+      "category": "ch03_数据链路层",
+      "difficulty": 1,
+      "question": "交换机可以隔离广播域",
+      "answer": false,
+      "explanation": ""
+    },
+    {
+      "id": 7,
+      "category": "ch02_物理层",
+      "difficulty": 1,
+      "question": "集线器工作在物理层",
+      "answer": true,
+      "explanation": ""
+    },
+    {
+      "id": 8,
+      "category": "ch03_数据链路层",
+      "difficulty": 1,
+      "question": "网桥工作在网络层",
+      "answer": false,
+      "explanation": ""
+    },
+    {
+      "id": 9,
+      "category": "ch04_网络层",
+      "difficulty": 1,
+      "question": "OSPF是链路状态路由协议",
+      "answer": true,
+      "explanation": ""
+    },
+    {
+      "id": 10,
+      "category": "ch04_网络层",
+      "difficulty": 1,
+      "question": "RIP是链路状态路由协议",
+      "answer": false,
+      "explanation": ""
+    },
+    {
+      "id": 11,
+      "category": "ch05_传输层",
+      "difficulty": 1,
+      "question": "TCP三次握手建立连接",
+      "answer": true,
+      "explanation": ""
+    },
+    {
+      "id": 12,
+      "category": "ch05_传输层",
+      "difficulty": 1,
+      "question": "TCP四次挥手释放连接",
+      "answer": true,
+      "explanation": ""
+    },
+    {
+      "id": 13,
+      "category": "ch05_传输层",
+      "difficulty": 1,
+      "question": "UDP需要三次握手建立连接",
+      "answer": false,
+      "explanation": ""
+    },
+    {
+      "id": 14,
+      "category": "ch05_传输层",
+      "difficulty": 1,
+      "question": "DNS使用TCP和UDP两种协议",
+      "answer": true,
+      "explanation": ""
+    },
+    {
+      "id": 15,
+      "category": "ch06_应用层",
+      "difficulty": 1,
+      "question": "HTTP是无状态协议",
+      "answer": true,
+      "explanation": ""
+    },
+    {
+      "id": 16,
+      "category": "ch06_应用层",
+      "difficulty": 1,
+      "question": "FTP只使用一个端口",
+      "answer": false,
+      "explanation": ""
+    },
+    {
+      "id": 17,
+      "category": "ch04_网络层",
+      "difficulty": 1,
+      "question": "NAT可以节省公网IP地址",
+      "answer": true,
+      "explanation": ""
+    },
+    {
+      "id": 18,
+      "category": "ch04_网络层",
+      "difficulty": 1,
+      "question": "VLSM表示可变长子网掩码",
+      "answer": true,
+      "explanation": ""
+    },
+    {
+      "id": 19,
+      "category": "ch04_网络层",
+      "difficulty": 1,
+      "question": "CIDR表示无类域间路由",
+      "answer": true,
+      "explanation": ""
+    },
+    {
+      "id": 20,
+      "category": "ch04_网络层",
+      "difficulty": 1,
+      "question": "ARP协议工作在应用层",
+      "answer": false,
+      "explanation": ""
+    },
+    {
+      "id": 21,
+      "category": "ch04_网络层",
+      "difficulty": 1,
+      "question": "ICMP协议可以用于诊断网络",
+      "answer": true,
+      "explanation": ""
+    },
+    {
+      "id": 22,
+      "category": "ch05_传输层",
+      "difficulty": 1,
+      "question": "TCP使用滑动窗口实现流量控制",
+      "answer": true,
+      "explanation": ""
+    },
+    {
+      "id": 23,
+      "category": "ch05_传输层",
+      "difficulty": 1,
+      "question": "UDP头部有确认号字段",
+      "answer": false,
+      "explanation": ""
+    },
+    {
+      "id": 24,
+      "category": "ch04_网络层",
+      "difficulty": 1,
+      "question": "子网掩码全1表示主机号部分",
+      "answer": false,
+      "explanation": ""
+    },
+    {
+      "id": 25,
+      "category": "ch07_网络安全与新趋势",
+      "difficulty": 1,
+      "question": "广播地址的主机位全为1",
+      "answer": true,
+      "explanation": ""
+    },
+    {
+      "id": 26,
+      "category": "ch06_应用层",
+      "difficulty": 1,
+      "question": "HTTP默认端口是443",
+      "answer": false,
+      "explanation": ""
+    },
+    {
+      "id": 27,
+      "category": "ch06_应用层",
+      "difficulty": 1,
+      "question": "HTTPS默认端口是443",
+      "answer": true,
+      "explanation": ""
+    },
+    {
+      "id": 28,
+      "category": "ch05_传输层",
+      "difficulty": 1,
+      "question": "SSL工作在传输层和应用层之间",
+      "answer": true,
+      "explanation": ""
+    },
+    {
+      "id": 29,
+      "category": "ch03_数据链路层",
+      "difficulty": 1,
+      "question": "VLAN可以提高网络安全性",
+      "answer": true,
+      "explanation": ""
+    },
+    {
+      "id": 30,
+      "category": "ch07_网络安全与新趋势",
+      "difficulty": 1,
+      "question": "STP可以消除网络环路",
+      "answer": true,
+      "explanation": ""
+    },
+    {
+      "id": 31,
+      "category": "ch03_数据链路层",
+      "difficulty": 1,
+      "question": "PPPoE用于以太网上的点对点连接",
+      "answer": true,
+      "explanation": ""
+    },
+    {
+      "id": 32,
+      "category": "ch04_网络层",
+      "difficulty": 1,
+      "question": "IPv6地址长度为64位",
+      "answer": false,
+      "explanation": ""
+    },
+    {
+      "id": 33,
+      "category": "ch04_网络层",
+      "difficulty": 1,
+      "question": "BGP是路径矢量协议",
+      "answer": true,
+      "explanation": ""
+    },
+    {
+      "id": 34,
+      "category": "ch07_网络安全与新趋势",
+      "difficulty": 1,
+      "question": "SNMP用于网络管理",
+      "answer": true,
+      "explanation": ""
+    },
+    {
+      "id": 35,
+      "category": "ch04_网络层",
+      "difficulty": 1,
+      "question": "PING命令使用ICMP协议",
+      "answer": true,
+      "explanation": ""
+    },
+    {
+      "id": 36,
+      "category": "ch05_传输层",
+      "difficulty": 1,
+      "question": "Traceroute使用UDP协议",
+      "answer": false,
+      "explanation": ""
+    },
+    {
+      "id": 37,
+      "category": "ch05_传输层",
+      "difficulty": 1,
+      "question": "DHCP使用UDP协议",
+      "answer": true,
+      "explanation": ""
+    },
+    {
+      "id": 38,
+      "category": "ch05_传输层",
+      "difficulty": 1,
+      "question": "TCP的拥塞控制和流量控制是同一个概念",
+      "answer": false,
+      "explanation": ""
+    },
+    {
+      "id": 39,
+      "category": "ch07_网络安全与新趋势",
+      "difficulty": 1,
+      "question": "代理服务器可以缓存网页",
+      "answer": true,
+      "explanation": ""
+    },
+    {
+      "id": 40,
+      "category": "ch03_数据链路层",
+      "difficulty": 1,
+      "question": "CSMA/CD用于全双工以太网",
+      "answer": false,
+      "explanation": ""
+    }
+  ],
+  "fills": [
+    {
+      "id": 1,
+      "category": "ch01_概述与体系结构",
+      "difficulty": 1,
+      "question": "OSI参考模型共有____层，自下而上第3层是____层。",
+      "answer": "7；网络",
+      "explanation": ""
+    },
+    {
+      "id": 2,
+      "category": "ch04_网络层",
+      "difficulty": 1,
+      "question": "TCP/IP模型中，传输层的两个主要协议是____和____。",
+      "answer": "TCP；UDP",
+      "explanation": ""
+    },
+    {
+      "id": 3,
+      "category": "ch04_网络层",
+      "difficulty": 1,
+      "question": "IP地址192.168.1.100/26的子网掩码是____。",
+      "answer": "255.255.255.192",
+      "explanation": ""
+    },
+    {
+      "id": 4,
+      "category": "ch06_应用层",
+      "difficulty": 1,
+      "question": "HTTP默认端口号是____，HTTPS默认端口号是____。",
+      "answer": "80；443",
+      "explanation": ""
+    },
+    {
+      "id": 5,
+      "category": "ch05_传输层",
+      "difficulty": 1,
+      "question": "TCP建立连接需要____次握手，释放连接需要____次挥手。",
+      "answer": "3；4",
+      "explanation": ""
+    },
+    {
+      "id": 6,
+      "category": "ch03_数据链路层",
+      "difficulty": 1,
+      "question": "MAC地址的长度是____位，通常用____进制表示。",
+      "answer": "48；十六",
+      "explanation": ""
+    },
+    {
+      "id": 7,
+      "category": "ch06_应用层",
+      "difficulty": 1,
+      "question": "DNS的中文全称是____。",
+      "answer": "域名系统",
+      "explanation": ""
+    },
+    {
+      "id": 8,
+      "category": "ch06_应用层",
+      "difficulty": 1,
+      "question": "FTP使用的控制连接端口是____，数据连接端口是____。",
+      "answer": "21；20",
+      "explanation": ""
+    },
+    {
+      "id": 9,
+      "category": "ch04_网络层",
+      "difficulty": 1,
+      "question": "IPv4地址总共有____位，IPv6地址总共有____位。",
+      "answer": "32；128",
+      "explanation": ""
+    },
+    {
+      "id": 10,
+      "category": "ch01_概述与体系结构",
+      "difficulty": 1,
+      "question": "路由器工作在OSI模型的第____层，交换机工作在第____层。",
+      "answer": "3；2",
+      "explanation": ""
+    },
+    {
+      "id": 11,
+      "category": "ch04_网络层",
+      "difficulty": 1,
+      "question": "子网掩码255.255.255.0对应的CIDR表示法是____。",
+      "answer": "/24",
+      "explanation": ""
+    },
+    {
+      "id": 12,
+      "category": "ch05_传输层",
+      "difficulty": 1,
+      "question": "TCP头部中，用于保证可靠传输的字段是____和____。",
+      "answer": "序列号；确认号",
+      "explanation": ""
+    },
+    {
+      "id": 13,
+      "category": "ch04_网络层",
+      "difficulty": 1,
+      "question": "ARP协议的功能是将____地址解析为____地址。",
+      "answer": "IP；MAC",
+      "explanation": ""
+    },
+    {
+      "id": 14,
+      "category": "ch04_网络层",
+      "difficulty": 1,
+      "question": "CIDR的中文全称是____。",
+      "answer": "无类域间路由",
+      "explanation": ""
+    },
+    {
+      "id": 15,
+      "category": "ch07_网络安全与新趋势",
+      "difficulty": 1,
+      "question": "常见的内部网关协议有____和____，外部网关协议是____。",
+      "answer": "RIP；OSPF；BGP",
+      "explanation": ""
+    },
+    {
+      "id": 16,
+      "category": "ch05_传输层",
+      "difficulty": 1,
+      "question": "UDP头部固定长度为____字节，TCP头部固定长度为____字节。",
+      "answer": "8；20",
+      "explanation": ""
+    },
+    {
+      "id": 17,
+      "category": "ch04_网络层",
+      "difficulty": 1,
+      "question": "私有IP地址段包括10.0.0.0/8、____和____。",
+      "answer": "172.16.0.0/12；192.168.0.0/16",
+      "explanation": ""
+    },
+    {
+      "id": 18,
+      "category": "ch04_网络层",
+      "difficulty": 1,
+      "question": "ICMP协议属于TCP/IP模型中的____层。",
+      "answer": "网络层（网际层）",
+      "explanation": ""
+    },
+    {
+      "id": 19,
+      "category": "ch03_数据链路层",
+      "difficulty": 1,
+      "question": "VLAN的中文全称是____。",
+      "answer": "虚拟局域网",
+      "explanation": ""
+    },
+    {
+      "id": 20,
+      "category": "ch07_网络安全与新趋势",
+      "difficulty": 1,
+      "question": "NAT的中文全称是____。",
+      "answer": "网络地址转换",
+      "explanation": ""
+    },
+    {
+      "id": 21,
+      "category": "ch06_应用层",
+      "difficulty": 1,
+      "question": "DHCP的中文全称是____。",
+      "answer": "动态主机配置协议",
+      "explanation": ""
+    },
+    {
+      "id": 22,
+      "category": "ch07_网络安全与新趋势",
+      "difficulty": 1,
+      "question": "SSL的后继协议是____。",
+      "answer": "TLS",
+      "explanation": ""
+    },
+    {
+      "id": 23,
+      "category": "ch03_数据链路层",
+      "difficulty": 1,
+      "question": "以太网帧的最大长度是____字节。",
+      "answer": "1518",
+      "explanation": ""
+    },
+    {
+      "id": 24,
+      "category": "ch05_传输层",
+      "difficulty": 1,
+      "question": "TCP使用____机制实现流量控制，使用____机制实现拥塞控制。",
+      "answer": "滑动窗口；慢开始和拥塞避免",
+      "explanation": ""
+    },
+    {
+      "id": 25,
+      "category": "ch04_网络层",
+      "difficulty": 1,
+      "question": "RIP协议的最大跳数是____，超过则认为不可达。",
+      "answer": "15",
+      "explanation": ""
+    },
+    {
+      "id": 26,
+      "category": "ch04_网络层",
+      "difficulty": 1,
+      "question": "OSPF协议使用____算法计算最短路径。",
+      "answer": "Dijkstra（迪杰斯特拉）",
+      "explanation": ""
+    },
+    {
+      "id": 27,
+      "category": "ch06_应用层",
+      "difficulty": 1,
+      "question": "HTTP状态码301表示____，302表示____。",
+      "answer": "永久重定向；临时重定向",
+      "explanation": ""
+    },
+    {
+      "id": 28,
+      "category": "ch06_应用层",
+      "difficulty": 1,
+      "question": "SMTP协议用于____，POP3协议用于____。",
+      "answer": "发送邮件；接收邮件",
+      "explanation": ""
+    },
+    {
+      "id": 29,
+      "category": "ch07_网络安全与新趋势",
+      "difficulty": 1,
+      "question": "SNMP的中文全称是____。",
+      "answer": "简单网络管理协议",
+      "explanation": ""
+    },
+    {
+      "id": 30,
+      "category": "ch04_网络层",
+      "difficulty": 1,
+      "question": "TTL字段的初始值通常为____，每经过一个路由器减____。",
+      "answer": "64（或128）；1",
+      "explanation": ""
+    },
+    {
+      "id": 31,
+      "category": "ch03_数据链路层",
+      "difficulty": 1,
+      "question": "CSMA/CD中，CD的含义是____。",
+      "answer": "冲突检测",
+      "explanation": ""
+    },
+    {
+      "id": 32,
+      "category": "ch04_网络层",
+      "difficulty": 1,
+      "question": "BGP协议使用____端口。",
+      "answer": "179",
+      "explanation": ""
+    },
+    {
+      "id": 33,
+      "category": "ch04_网络层",
+      "difficulty": 1,
+      "question": "OSPF协议使用____端口。",
+      "answer": "89",
+      "explanation": ""
+    },
+    {
+      "id": 34,
+      "category": "ch07_网络安全与新趋势",
+      "difficulty": 1,
+      "question": "回环地址127.0.0.1属于____类地址。",
+      "answer": "A",
+      "explanation": ""
+    },
+    {
+      "id": 35,
+      "category": "ch07_网络安全与新趋势",
+      "difficulty": 1,
+      "question": "STP的中文全称是____。",
+      "answer": "生成树协议",
+      "explanation": ""
+    },
+    {
+      "id": 36,
+      "category": "ch07_网络安全与新趋势",
+      "difficulty": 1,
+      "question": "QoS的中文全称是____。",
+      "answer": "服务质量",
+      "explanation": ""
+    },
+    {
+      "id": 37,
+      "category": "ch07_网络安全与新趋势",
+      "difficulty": 1,
+      "question": "代理服务器按照位置可分为____代理和____代理。",
+      "answer": "正向（前向）；反向",
+      "explanation": ""
+    },
+    {
+      "id": 38,
+      "category": "ch06_应用层",
+      "difficulty": 1,
+      "question": "HTTP/1.1相比HTTP/1.0增加了____连接特性。",
+      "answer": "持久（keep-alive）",
+      "explanation": ""
+    },
+    {
+      "id": 39,
+      "category": "ch03_数据链路层",
+      "difficulty": 1,
+      "question": "数据链路层的三个基本问题是：封装成帧、____和____。",
+      "answer": "透明传输；差错检测",
+      "explanation": ""
+    },
+    {
+      "id": 40,
+      "category": "ch05_传输层",
+      "difficulty": 1,
+      "question": "传输层向应用层提供的两种服务是：面向连接的____服务和无连接的____服务。",
+      "answer": "可靠；不可靠（数据报）",
+      "explanation": ""
+    }
+  ],
+  "essays": []
+}

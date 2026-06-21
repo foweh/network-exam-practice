@@ -1,0 +1,118 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>计算机网络 · 记忆练习</title>
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/themes.css">
+</head>
+<body data-theme="light">
+  <div id="app">
+    <header class="app-header">
+      <div class="brand">
+        <button id="menuToggle" class="icon-btn menu-toggle" title="打开筛选">☰</button>
+        <span class="logo">🌐</span>
+        <h1>计算机网络 · 记忆练习</h1>
+      </div>
+      <nav class="mode-tabs" aria-label="练习模式">
+        <button class="mode-tab active" data-mode="dashboard" title="统计概览">
+          <span class="icon">🏠</span> 概览
+        </button>
+        <button class="mode-tab" data-mode="study" title="看题背答案">
+          <span class="icon">📖</span> 学习
+        </button>
+        <button class="mode-tab" data-mode="quiz" title="自测评分">
+          <span class="icon">✏️</span> 测验
+        </button>
+        <button class="mode-tab" data-mode="review" title="错题与收藏">
+          <span class="icon">🔄</span> 复习
+        </button>
+      </nav>
+      <div class="header-actions">
+        <button id="themeToggle" class="icon-btn" title="切换主题">🌙</button>
+        <button id="resetBtn" class="icon-btn danger" title="清空本地进度">🗑️</button>
+      </div>
+    </header>
+
+    <div class="sidebar-overlay" id="sidebarOverlay"></div>
+    <aside class="app-sidebar" id="appSidebar">
+      <section class="panel">
+        <h2>题库来源</h2>
+        <div class="source-list" id="sourceList"></div>
+      </section>
+
+      <section class="panel">
+        <h2>筛选</h2>
+        <div class="filter-group">
+          <label for="categoryFilter">章节</label>
+          <select id="categoryFilter" multiple size="5"></select>
+        </div>
+        <div class="filter-group">
+          <label>题型</label>
+          <div class="checkboxes" id="typeFilter">
+            <label><input type="checkbox" value="choice" checked> 选择题</label>
+            <label><input type="checkbox" value="judge" checked> 判断题</label>
+            <label><input type="checkbox" value="fill" checked> 填空题</label>
+            <label><input type="checkbox" value="essay" checked> 简答题</label>
+          </div>
+        </div>
+        <div class="filter-group">
+          <label>难度</label>
+          <div class="checkboxes" id="difficultyFilter">
+            <label><input type="checkbox" value="1" checked> 基础</label>
+            <label><input type="checkbox" value="2" checked> 中等</label>
+            <label><input type="checkbox" value="3" checked> 困难</label>
+          </div>
+        </div>
+      </section>
+
+      <section class="panel">
+        <h2>设置</h2>
+        <div class="filter-group">
+          <label for="quizCount">测验题数</label>
+          <input type="number" id="quizCount" min="5" max="100" value="20">
+        </div>
+        <div class="filter-group">
+          <label for="showExplanation">答后显示解析</label>
+          <select id="showExplanation">
+            <option value="auto">自动</option>
+            <option value="always">总是</option>
+            <option value="never">从不</option>
+          </select>
+        </div>
+      </section>
+    </aside>
+
+    <main class="app-main" id="mainArea">
+      <div class="dashboard" id="dashboard">
+        <h2>欢迎来到计算机网络记忆练习</h2>
+        <p>选择题库后开始学习、测验或复习错题。</p>
+        <div class="stats-grid" id="statsGrid"></div>
+      </div>
+    </main>
+
+    <footer class="app-footer">
+      <div class="progress-area" id="progressArea">
+        <span id="progressText">0 / 0</span>
+        <div class="progress-bar"><div class="progress-fill" id="progressFill"></div></div>
+      </div>
+      <div class="footer-actions" id="footerActions"></div>
+    </footer>
+  </div>
+
+  <div class="toast" id="toast"></div>
+
+  <script src="js/utils.js"></script>
+  <script src="js/state.js"></script>
+  <script src="js/data-loader.js"></script>
+  <script src="js/question-renderer.js"></script>
+  <script src="js/modes/study-mode.js"></script>
+  <script src="js/modes/quiz-mode.js"></script>
+  <script src="js/modes/review-mode.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
+

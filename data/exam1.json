@@ -1,0 +1,2310 @@
+{
+  "meta": {
+    "title": "计算机网络期末试题（卷一）",
+    "course": "Computer Networks",
+    "reference": "谢希仁《计算机网络》第8版 知识框架",
+    "total": {
+      "choice": 100,
+      "judge": 40,
+      "fill": 40,
+      "essay": 30
+    },
+    "categories": [
+      "ch01_概述与体系结构",
+      "ch02_物理层",
+      "ch03_数据链路层",
+      "ch04_网络层",
+      "ch05_传输层",
+      "ch06_应用层",
+      "ch07_网络安全与新趋势"
+    ]
+  },
+  "choices": [
+    {
+      "id": 1,
+      "category": "ch01_概述与体系结构",
+      "difficulty": 1,
+      "question": "世界上第一个计算机网络是（ ）",
+      "options": {
+        "A": "ARPANET",
+        "B": "ChinaNet",
+        "C": "Internet",
+        "D": "CERNET"
+      },
+      "answer": "A",
+      "explanation": "ARPANET是美国国防部高级研究计划局于1969年建立的世界上第一个分组交换网络，是现代计算机网络的雏形。"
+    },
+    {
+      "id": 2,
+      "category": "ch01_概述与体系结构",
+      "difficulty": 1,
+      "question": "计算机网络最基本的功能是（ ）",
+      "options": {
+        "A": "资源共享",
+        "B": "数据通信",
+        "C": "分布式处理",
+        "D": "提高可靠性"
+      },
+      "answer": "B",
+      "explanation": "数据通信是计算机网络最基本的功能，实现不同地理位置计算机之间的数据传输，其他功能均建立在此基础之上。"
+    },
+    {
+      "id": 3,
+      "category": "ch01_概述与体系结构",
+      "difficulty": 1,
+      "question": "按照网络的覆盖范围，计算机网络可分为（ ）",
+      "options": {
+        "A": "电路交换网、报文交换网、分组交换网",
+        "B": "星型网、环型网、总线型网",
+        "C": "LAN、MAN、WAN",
+        "D": "公用网、专用网"
+      },
+      "answer": "C",
+      "explanation": "按覆盖范围分为局域网（LAN）、城域网（MAN）、广域网（WAN）。A是按交换方式分类，B是按拓扑结构分类，D是按使用范围分类。"
+    },
+    {
+      "id": 4,
+      "category": "ch01_概述与体系结构",
+      "difficulty": 1,
+      "question": "OSI参考模型共分为（ ）层",
+      "options": {
+        "A": "5",
+        "B": "6",
+        "C": "7",
+        "D": "8"
+      },
+      "answer": "C",
+      "explanation": "OSI开放系统互连参考模型从下到上共7层：物理层、数据链路层、网络层、传输层、会话层、表示层、应用层。"
+    },
+    {
+      "id": 5,
+      "category": "ch01_概述与体系结构",
+      "difficulty": 1,
+      "question": "TCP/IP参考模型共分为（ ）层",
+      "options": {
+        "A": "3",
+        "B": "4",
+        "C": "5",
+        "D": "7"
+      },
+      "answer": "B",
+      "explanation": "TCP/IP参考模型分为4层：网络接口层、网际层（网络层）、传输层、应用层。"
+    },
+    {
+      "id": 6,
+      "category": "ch01_概述与体系结构",
+      "difficulty": 1,
+      "question": "在OSI模型中，负责路由选择的是（ ）",
+      "options": {
+        "A": "物理层",
+        "B": "数据链路层",
+        "C": "网络层",
+        "D": "传输层"
+      },
+      "answer": "C",
+      "explanation": "网络层的主要功能是路由选择、拥塞控制和网络互连，通过路由算法为分组选择最佳路径。"
+    },
+    {
+      "id": 7,
+      "category": "ch01_概述与体系结构",
+      "difficulty": 1,
+      "question": "在OSI模型中，实现端到端可靠传输的是（ ）",
+      "options": {
+        "A": "网络层",
+        "B": "传输层",
+        "C": "会话层",
+        "D": "应用层"
+      },
+      "answer": "B",
+      "explanation": "传输层负责主机中两个进程之间的端到端通信，提供可靠或不可靠的数据传输服务，如TCP和UDP协议。"
+    },
+    {
+      "id": 8,
+      "category": "ch01_概述与体系结构",
+      "difficulty": 1,
+      "question": "数据链路层的数据单位是（ ）",
+      "options": {
+        "A": "比特",
+        "B": "帧",
+        "C": "分组",
+        "D": "报文"
+      },
+      "answer": "B",
+      "explanation": "物理层数据单位是比特，数据链路层是帧，网络层是分组（包），传输层是报文段，应用层是报文。"
+    },
+    {
+      "id": 9,
+      "category": "ch01_概述与体系结构",
+      "difficulty": 1,
+      "question": "下列不属于网络拓扑结构的是（ ）",
+      "options": {
+        "A": "星型",
+        "B": "总线型",
+        "C": "环型",
+        "D": "分支型"
+      },
+      "answer": "D",
+      "explanation": "常见网络拓扑结构有星型、总线型、环型、树型、网状型，没有分支型这一标准分类。"
+    },
+    {
+      "id": 10,
+      "category": "ch01_概述与体系结构",
+      "difficulty": 1,
+      "question": "局域网的英文缩写是（ ）",
+      "options": {
+        "A": "WAN",
+        "B": "LAN",
+        "C": "MAN",
+        "D": "SAN"
+      },
+      "answer": "B",
+      "explanation": "LAN（Local Area Network）是局域网，WAN是广域网，MAN是城域网，SAN是存储区域网络。"
+    },
+    {
+      "id": 11,
+      "category": "ch02_物理层",
+      "difficulty": 1,
+      "question": "物理层传输的数据单位是（ ）",
+      "options": {
+        "A": "字节",
+        "B": "比特",
+        "C": "帧",
+        "D": "分组"
+      },
+      "answer": "B",
+      "explanation": "物理层直接在传输介质上传输原始比特流，数据单位是比特（bit）。"
+    },
+    {
+      "id": 12,
+      "category": "ch02_物理层",
+      "difficulty": 1,
+      "question": "常用的非屏蔽双绞线的英文缩写是（ ）",
+      "options": {
+        "A": "UTP",
+        "B": "STP",
+        "C": "FTP",
+        "D": "ATP"
+      },
+      "answer": "A",
+      "explanation": "UTP（Unshielded Twisted Pair）是非屏蔽双绞线，STP是屏蔽双绞线。"
+    },
+    {
+      "id": 13,
+      "category": "ch02_物理层",
+      "difficulty": 1,
+      "question": "光纤传输采用的通信方式是（ ）",
+      "options": {
+        "A": "电信号传输",
+        "B": "光信号传输",
+        "C": "电磁波传输",
+        "D": "微波传输"
+      },
+      "answer": "B",
+      "explanation": "光纤通过光的全反射原理传输光信号，具有带宽高、抗干扰能力强、保密性好等特点。"
+    },
+    {
+      "id": 14,
+      "category": "ch02_物理层",
+      "difficulty": 1,
+      "question": "在常用的传输介质中，带宽最宽、抗干扰能力最强的是（ ）",
+      "options": {
+        "A": "双绞线",
+        "B": "同轴电缆",
+        "C": "光纤",
+        "D": "无线信道"
+      },
+      "answer": "C",
+      "explanation": "光纤具有传输频带宽、通信容量大、抗电磁干扰能力强、损耗低等优点，是目前性能最好的有线传输介质。"
+    },
+    {
+      "id": 15,
+      "category": "ch02_物理层",
+      "difficulty": 1,
+      "question": "RJ45水晶头用于连接（ ）",
+      "options": {
+        "A": "光纤",
+        "B": "双绞线",
+        "C": "同轴电缆",
+        "D": "电源线"
+      },
+      "answer": "B",
+      "explanation": "RJ45接口是双绞线以太网的标准接口，俗称水晶头，用于连接计算机、交换机、路由器等网络设备。"
+    },
+    {
+      "id": 16,
+      "category": "ch02_物理层",
+      "difficulty": 1,
+      "question": "调制解调器（Modem）的功能是（ ）",
+      "options": {
+        "A": "数字信号的编码",
+        "B": "模拟信号的放大",
+        "C": "数字信号与模拟信号的转换",
+        "D": "串行数据与并行数据的转换"
+      },
+      "answer": "C",
+      "explanation": "调制解调器的作用是实现数字信号与模拟信号之间的转换，发送端调制（数字转模拟），接收端解调（模拟转数字）。"
+    },
+    {
+      "id": 17,
+      "category": "ch02_物理层",
+      "difficulty": 1,
+      "question": "将物理信道的总频带宽分割成若干个子信道，每个子信道传输一路信号，这种复用技术是（ ）",
+      "options": {
+        "A": "时分复用",
+        "B": "频分复用",
+        "C": "波分复用",
+        "D": "码分复用"
+      },
+      "answer": "B",
+      "explanation": "频分复用（FDM）按频率划分信道，将不同信号调制到不同频率载波上，同时在信道中传输。"
+    },
+    {
+      "id": 18,
+      "category": "ch02_物理层",
+      "difficulty": 1,
+      "question": "5类双绞线的最大传输速率为（ ）",
+      "options": {
+        "A": "10Mbps",
+        "B": "100Mbps",
+        "C": "1000Mbps",
+        "D": "10Gbps"
+      },
+      "answer": "B",
+      "explanation": "5类双绞线（Cat5）支持最高100Mbps传输速率，超5类（Cat5e）可达1000Mbps。"
+    },
+    {
+      "id": 19,
+      "category": "ch02_物理层",
+      "difficulty": 1,
+      "question": "单模光纤与多模光纤相比，其特点是（ ）",
+      "options": {
+        "A": "传输距离近、成本低",
+        "B": "传输距离远、成本高",
+        "C": "传输距离近、成本高",
+        "D": "传输距离远、成本低"
+      },
+      "answer": "B",
+      "explanation": "单模光纤芯径细，只能传输一种模式的光，色散小，传输距离远，但光源要求高、成本高；多模光纤则相反。"
+    },
+    {
+      "id": 20,
+      "category": "ch02_物理层",
+      "difficulty": 1,
+      "question": "下列属于无线传输介质的是（ ）",
+      "options": {
+        "A": "双绞线",
+        "B": "同轴电缆",
+        "C": "红外线",
+        "D": "光纤"
+      },
+      "answer": "C",
+      "explanation": "红外线、无线电波、微波、蓝牙等都属于无线传输介质，其余选项均为有线传输介质。"
+    },
+    {
+      "id": 21,
+      "category": "ch03_数据链路层",
+      "difficulty": 1,
+      "question": "数据链路层的数据封装单位是（ ）",
+      "options": {
+        "A": "比特",
+        "B": "帧",
+        "C": "分组",
+        "D": "报文"
+      },
+      "answer": "B",
+      "explanation": "数据链路层将网络层交下来的IP数据报添加首部和尾部封装成帧，在相邻节点之间传输。"
+    },
+    {
+      "id": 22,
+      "category": "ch03_数据链路层",
+      "difficulty": 1,
+      "question": "以太网采用的介质访问控制方法是（ ）",
+      "options": {
+        "A": "CSMA/CD",
+        "B": "CSMA/CA",
+        "C": "令牌环",
+        "D": "令牌总线"
+      },
+      "answer": "A",
+      "explanation": "传统以太网采用CSMA/CD（载波监听多路访问/冲突检测）机制解决共享信道的争用问题。"
+    },
+    {
+      "id": 23,
+      "category": "ch03_数据链路层",
+      "difficulty": 1,
+      "question": "MAC地址的长度是（ ）位",
+      "options": {
+        "A": "16",
+        "B": "32",
+        "C": "48",
+        "D": "64"
+      },
+      "answer": "C",
+      "explanation": "MAC地址（物理地址）长度为48位，通常表示为12个十六进制数，前24位是厂商编号，后24位是网卡序列号。"
+    },
+    {
+      "id": 24,
+      "category": "ch03_数据链路层",
+      "difficulty": 1,
+      "question": "下列地址中属于MAC地址的是（ ）",
+      "options": {
+        "A": "192.168.1.1",
+        "B": "00-16-5A-8E-3D-2F",
+        "C": "www.baidu.com",
+        "D": "::1"
+      },
+      "answer": "B",
+      "explanation": "MAC地址由6组两位十六进制数组成，用横杠或冒号分隔。A是IPv4地址，C是域名，D是IPv6回环地址。"
+    },
+    {
+      "id": 25,
+      "category": "ch03_数据链路层",
+      "difficulty": 1,
+      "question": "PPP协议属于（ ）层协议",
+      "options": {
+        "A": "物理层",
+        "B": "数据链路层",
+        "C": "网络层",
+        "D": "传输层"
+      },
+      "answer": "B",
+      "explanation": "PPP（点对点协议）是数据链路层协议，主要用于点对点链路，如拨号上网、光纤专线等场景。"
+    },
+    {
+      "id": 26,
+      "category": "ch03_数据链路层",
+      "difficulty": 1,
+      "question": "交换机工作在OSI模型的（ ）",
+      "options": {
+        "A": "物理层",
+        "B": "数据链路层",
+        "C": "网络层",
+        "D": "传输层"
+      },
+      "answer": "B",
+      "explanation": "以太网交换机根据MAC地址转发数据帧，工作在数据链路层。集线器工作在物理层，路由器工作在网络层。"
+    },
+    {
+      "id": 27,
+      "category": "ch03_数据链路层",
+      "difficulty": 1,
+      "question": "以太网帧的最小长度是（ ）字节",
+      "options": {
+        "A": "46",
+        "B": "64",
+        "C": "1500",
+        "D": "1518"
+      },
+      "answer": "B",
+      "explanation": "以太网帧最小长度为64字节（含首部和尾部），最大长度为1518字节，数据部分最小46字节，最大1500字节。"
+    },
+    {
+      "id": 28,
+      "category": "ch03_数据链路层",
+      "difficulty": 1,
+      "question": "CRC循环冗余校验主要用于（ ）",
+      "options": {
+        "A": "差错纠正",
+        "B": "差错检测",
+        "C": "流量控制",
+        "D": "拥塞控制"
+      },
+      "answer": "B",
+      "explanation": "CRC是一种广泛使用的差错检测方法，能够检测出传输过程中产生的比特差错，但不能纠正差错。"
+    },
+    {
+      "id": 29,
+      "category": "ch03_数据链路层",
+      "difficulty": 1,
+      "question": "停止-等待协议的主要作用是（ ）",
+      "options": {
+        "A": "差错检测",
+        "B": "路由选择",
+        "C": "流量控制",
+        "D": "地址解析"
+      },
+      "answer": "C",
+      "explanation": "停止-等待协议是最简单的流量控制协议，发送方每发完一帧就等待接收方确认，收到确认后再发下一帧。"
+    },
+    {
+      "id": 30,
+      "category": "ch03_数据链路层",
+      "difficulty": 1,
+      "question": "VLAN的中文名称是（ ）",
+      "options": {
+        "A": "虚拟局域网",
+        "B": "虚拟专用网",
+        "C": "无线局域网",
+        "D": "广域网"
+      },
+      "answer": "A",
+      "explanation": "VLAN（Virtual Local Area Network）即虚拟局域网，通过交换机将局域网内的设备逻辑地划分成多个独立的广播域。"
+    },
+    {
+      "id": 31,
+      "category": "ch04_网络层",
+      "difficulty": 1,
+      "question": "IP协议工作在TCP/IP模型的（ ）",
+      "options": {
+        "A": "网络接口层",
+        "B": "网际层",
+        "C": "传输层",
+        "D": "应用层"
+      },
+      "answer": "B",
+      "explanation": "IP协议是TCP/IP体系中网际层的核心协议，负责无连接的数据报传输和路由选择。"
+    },
+    {
+      "id": 32,
+      "category": "ch04_网络层",
+      "difficulty": 1,
+      "question": "IPv4地址的长度是（ ）位",
+      "options": {
+        "A": "16",
+        "B": "32",
+        "C": "48",
+        "D": "128"
+      },
+      "answer": "B",
+      "explanation": "IPv4地址由32位二进制数组成，通常采用点分十进制表示法，分为4个字节。"
+    },
+    {
+      "id": 33,
+      "category": "ch04_网络层",
+      "difficulty": 1,
+      "question": "IPv6地址的长度是（ ）位",
+      "options": {
+        "A": "32",
+        "B": "64",
+        "C": "128",
+        "D": "256"
+      },
+      "answer": "C",
+      "explanation": "IPv6地址长度为128位，采用冒分十六进制表示法，解决了IPv4地址空间不足的问题。"
+    },
+    {
+      "id": 34,
+      "category": "ch04_网络层",
+      "difficulty": 1,
+      "question": "下列IP地址中，属于C类地址的是（ ）",
+      "options": {
+        "A": "10.10.10.1",
+        "B": "172.16.0.1",
+        "C": "192.168.1.1",
+        "D": "224.0.0.1"
+      },
+      "answer": "C",
+      "explanation": "C类IP地址范围是192.0.0.0~223.255.255.255。A是A类私网地址，B是B类私网地址，D是D类组播地址。"
+    },
+    {
+      "id": 35,
+      "category": "ch04_网络层",
+      "difficulty": 1,
+      "question": "子网掩码255.255.255.0对应的前缀长度是（ ）",
+      "options": {
+        "A": "/16",
+        "B": "/24",
+        "C": "/25",
+        "D": "/32"
+      },
+      "answer": "B",
+      "explanation": "子网掩码255.255.255.0转换为二进制是前24位全1，后8位全0，对应前缀长度/24。"
+    },
+    {
+      "id": 36,
+      "category": "ch04_网络层",
+      "difficulty": 1,
+      "question": "ARP协议的作用是（ ）",
+      "options": {
+        "A": "将IP地址解析为MAC地址",
+        "B": "将MAC地址解析为IP地址",
+        "C": "将域名解析为IP地址",
+        "D": "将IP地址解析为域名"
+      },
+      "answer": "A",
+      "explanation": "ARP（地址解析协议）用于根据已知的IP地址获取对应的物理地址（MAC地址），工作在网络层和数据链路层之间。"
+    },
+    {
+      "id": 37,
+      "category": "ch04_网络层",
+      "difficulty": 1,
+      "question": "RARP协议的作用是（ ）",
+      "options": {
+        "A": "将IP地址解析为MAC地址",
+        "B": "将MAC地址解析为IP地址",
+        "C": "将域名解析为IP地址",
+        "D": "将IP地址解析为域名"
+      },
+      "answer": "B",
+      "explanation": "RARP（反向地址解析协议）作用与ARP相反，用于根据MAC地址获取对应的IP地址，常用于无盘工作站启动。"
+    },
+    {
+      "id": 38,
+      "category": "ch04_网络层",
+      "difficulty": 1,
+      "question": "ICMP协议位于（ ）",
+      "options": {
+        "A": "物理层",
+        "B": "数据链路层",
+        "C": "网络层",
+        "D": "传输层"
+      },
+      "answer": "C",
+      "explanation": "ICMP（网际控制报文协议）是网络层协议，用于在IP主机、路由器之间传递控制消息和差错报告，ping命令就是基于ICMP实现的。"
+    },
+    {
+      "id": 39,
+      "category": "ch04_网络层",
+      "difficulty": 1,
+      "question": "路由器工作在OSI模型的（ ）",
+      "options": {
+        "A": "物理层",
+        "B": "数据链路层",
+        "C": "网络层",
+        "D": "传输层"
+      },
+      "answer": "C",
+      "explanation": "路由器根据IP地址进行路由选择和转发分组，工作在网络层，可以连接不同类型的网络，隔离广播域。"
+    },
+    {
+      "id": 40,
+      "category": "ch04_网络层",
+      "difficulty": 1,
+      "question": "下列属于内部网关协议的是（ ）",
+      "options": {
+        "A": "BGP",
+        "B": "RIP",
+        "C": "TCP",
+        "D": "DNS"
+      },
+      "answer": "B",
+      "explanation": "内部网关协议（IGP）在一个自治系统内部使用，如RIP、OSPF。BGP是外部网关协议（EGP），TCP是传输层协议，DNS是应用层协议。"
+    },
+    {
+      "id": 41,
+      "category": "ch04_网络层",
+      "difficulty": 1,
+      "question": "RIP协议使用的路由选择算法是（ ）",
+      "options": {
+        "A": "距离向量算法",
+        "B": "链路状态算法",
+        "C": "路径向量算法",
+        "D": "洪泛算法"
+      },
+      "answer": "A",
+      "explanation": "RIP（路由信息协议）基于距离向量算法，以跳数作为度量值，最大跳数为15，超过15表示不可达。"
+    },
+    {
+      "id": 42,
+      "category": "ch04_网络层",
+      "difficulty": 1,
+      "question": "OSPF协议使用的路由选择算法是（ ）",
+      "options": {
+        "A": "距离向量算法",
+        "B": "链路状态算法",
+        "C": "路径向量算法",
+        "D": "静态路由算法"
+      },
+      "answer": "B",
+      "explanation": "OSPF（开放最短路径优先）基于链路状态算法，通过洪泛法交换链路状态信息，使用Dijkstra算法计算最短路径。"
+    },
+    {
+      "id": 43,
+      "category": "ch04_网络层",
+      "difficulty": 1,
+      "question": "BGP协议属于（ ）",
+      "options": {
+        "A": "内部网关协议",
+        "B": "外部网关协议",
+        "C": "传输层协议",
+        "D": "应用层协议"
+      },
+      "answer": "B",
+      "explanation": "BGP（边界网关协议）是外部网关协议，用于在不同自治系统（AS）之间交换路由信息，是互联网的核心路由协议。"
+    },
+    {
+      "id": 44,
+      "category": "ch04_网络层",
+      "difficulty": 1,
+      "question": "IP地址192.168.1.100/26的子网掩码是（ ）",
+      "options": {
+        "A": "255.255.255.0",
+        "B": "255.255.255.128",
+        "C": "255.255.255.192",
+        "D": "255.255.255.224"
+      },
+      "answer": "C",
+      "explanation": "/26表示前26位为网络位，子网掩码二进制前26位为1，即11111111.11111111.11111111.11000000，转换为十进制是255.255.255.192。"
+    },
+    {
+      "id": 45,
+      "category": "ch04_网络层",
+      "difficulty": 1,
+      "question": "下列IP地址中，属于私网地址的是（ ）",
+      "options": {
+        "A": "8.8.8.8",
+        "B": "172.32.1.1",
+        "C": "10.0.0.1",
+        "D": "202.103.0.1"
+      },
+      "answer": "C",
+      "explanation": "私网地址范围：10.0.0.0~10.255.255.255、172.16.0.0~172.31.255.255、192.168.0.0~192.168.255.255。"
+    },
+    {
+      "id": 46,
+      "category": "ch05_传输层",
+      "difficulty": 1,
+      "question": "TCP协议的全称是（ ）",
+      "options": {
+        "A": "网际协议",
+        "B": "传输控制协议",
+        "C": "用户数据报协议",
+        "D": "文件传输协议"
+      },
+      "answer": "B",
+      "explanation": "TCP（Transmission Control Protocol）即传输控制协议，是面向连接的、可靠的传输层协议。"
+    },
+    {
+      "id": 47,
+      "category": "ch05_传输层",
+      "difficulty": 1,
+      "question": "UDP协议的特点是（ ）",
+      "options": {
+        "A": "面向连接、可靠",
+        "B": "无连接、不可靠",
+        "C": "面向连接、不可靠",
+        "D": "无连接、可靠"
+      },
+      "answer": "B",
+      "explanation": "UDP（用户数据报协议）是无连接的传输层协议，不提供可靠交付，开销小、时延小，适用于实时应用。"
+    },
+    {
+      "id": 48,
+      "category": "ch05_传输层",
+      "difficulty": 1,
+      "question": "TCP协议通过（ ）机制实现可靠传输",
+      "options": {
+        "A": "滑动窗口",
+        "B": "三次握手",
+        "C": "确认与重传",
+        "D": "端口号"
+      },
+      "answer": "C",
+      "explanation": "TCP通过确认机制、超时重传机制保证数据可靠交付，滑动窗口用于流量控制，三次握手用于建立连接。"
+    },
+    {
+      "id": 49,
+      "category": "ch05_传输层",
+      "difficulty": 1,
+      "question": "TCP建立连接需要经过（ ）次握手",
+      "options": {
+        "A": "1",
+        "B": "2",
+        "C": "3",
+        "D": "4"
+      },
+      "answer": "C",
+      "explanation": "TCP采用三次握手建立连接，目的是同步双方的序列号和确认号，交换窗口大小等初始参数，确保连接可靠建立。"
+    },
+    {
+      "id": 50,
+      "category": "ch05_传输层",
+      "difficulty": 1,
+      "question": "TCP释放连接需要经过（ ）次挥手",
+      "options": {
+        "A": "1",
+        "B": "2",
+        "C": "3",
+        "D": "4"
+      },
+      "answer": "D",
+      "explanation": "TCP连接是全双工的，释放连接时每个方向都需要单独关闭，因此需要四次挥手才能完全断开连接。"
+    },
+    {
+      "id": 51,
+      "category": "ch05_传输层",
+      "difficulty": 1,
+      "question": "端口号的作用是（ ）",
+      "options": {
+        "A": "标识主机",
+        "B": "标识网络",
+        "C": "标识主机中的进程",
+        "D": "标识路由器接口"
+      },
+      "answer": "C",
+      "explanation": "传输层通过端口号标识主机中不同的应用进程，实现多路复用和分用，IP地址+端口号可以唯一标识网络中的一个进程。"
+    },
+    {
+      "id": 52,
+      "category": "ch05_传输层",
+      "difficulty": 1,
+      "question": "HTTP协议默认使用的端口号是（ ）",
+      "options": {
+        "A": "21",
+        "B": "23",
+        "C": "80",
+        "D": "443"
+      },
+      "answer": "C",
+      "explanation": "HTTP默认端口80，FTP默认21，Telnet默认23，HTTPS默认443。"
+    },
+    {
+      "id": 53,
+      "category": "ch05_传输层",
+      "difficulty": 1,
+      "question": "HTTPS协议默认使用的端口号是（ ）",
+      "options": {
+        "A": "21",
+        "B": "80",
+        "C": "443",
+        "D": "8080"
+      },
+      "answer": "C",
+      "explanation": "HTTPS是HTTP over SSL/TLS，默认使用443端口，提供加密的安全HTTP通信。"
+    },
+    {
+      "id": 54,
+      "category": "ch05_传输层",
+      "difficulty": 1,
+      "question": "FTP协议默认使用的端口号是（ ）",
+      "options": {
+        "A": "20和21",
+        "B": "23",
+        "C": "25",
+        "D": "53"
+      },
+      "answer": "A",
+      "explanation": "FTP使用两个端口：21端口用于控制连接，20端口用于数据连接（主动模式下）。"
+    },
+    {
+      "id": 55,
+      "category": "ch05_传输层",
+      "difficulty": 1,
+      "question": "DNS协议默认使用的端口号是（ ）",
+      "options": {
+        "A": "25",
+        "B": "53",
+        "C": "110",
+        "D": "143"
+      },
+      "answer": "B",
+      "explanation": "DNS（域名系统）默认使用UDP 53端口进行域名查询，区域传输等大数据量场景使用TCP 53端口。"
+    },
+    {
+      "id": 56,
+      "category": "ch05_传输层",
+      "difficulty": 1,
+      "question": "TCP滑动窗口机制的主要作用是（ ）",
+      "options": {
+        "A": "差错控制",
+        "B": "流量控制",
+        "C": "拥塞控制",
+        "D": "路由控制"
+      },
+      "answer": "B",
+      "explanation": "滑动窗口是TCP实现流量控制的机制，接收方通过告知发送方自己的窗口大小，控制发送方的发送速率，防止接收方缓存溢出。"
+    },
+    {
+      "id": 57,
+      "category": "ch05_传输层",
+      "difficulty": 1,
+      "question": "下列应用层协议中，使用UDP传输的是（ ）",
+      "options": {
+        "A": "HTTP",
+        "B": "FTP",
+        "C": "DNS",
+        "D": "SMTP"
+      },
+      "answer": "C",
+      "explanation": "DNS主要使用UDP传输，查询响应快、开销小。HTTP、FTP、SMTP均使用TCP传输。"
+    },
+    {
+      "id": 58,
+      "category": "ch05_传输层",
+      "difficulty": 1,
+      "question": "TCP拥塞控制中，慢启动阶段拥塞窗口的变化是（ ）",
+      "options": {
+        "A": "线性增长",
+        "B": "指数增长",
+        "C": "保持不变",
+        "D": "随机增长"
+      },
+      "answer": "B",
+      "explanation": "慢启动阶段，每收到一个确认，拥塞窗口加1，因此每经过一个RTT，拥塞窗口翻倍，呈指数增长。"
+    },
+    {
+      "id": 59,
+      "category": "ch05_传输层",
+      "difficulty": 1,
+      "question": "TCP拥塞控制算法不包括（ ）",
+      "options": {
+        "A": "慢启动",
+        "B": "拥塞避免",
+        "C": "快重传与快恢复",
+        "D": "滑动窗口"
+      },
+      "answer": "D",
+      "explanation": "TCP拥塞控制四个核心算法：慢启动、拥塞避免、快重传、快恢复。滑动窗口是流量控制机制，不属于拥塞控制。"
+    },
+    {
+      "id": 60,
+      "category": "ch05_传输层",
+      "difficulty": 1,
+      "question": "熟知端口号的范围是（ ）",
+      "options": {
+        "A": "0~1023",
+        "B": "1024~49151",
+        "C": "49152~65535",
+        "D": "0~65535"
+      },
+      "answer": "A",
+      "explanation": "端口号分为三类：熟知端口0~1023，登记端口1024~49151，临时端口49152~65535。"
+    },
+    {
+      "id": 61,
+      "category": "ch06_应用层",
+      "difficulty": 1,
+      "question": "DNS的作用是（ ）",
+      "options": {
+        "A": "将IP地址转换为MAC地址",
+        "B": "将域名转换为IP地址",
+        "C": "实现文件传输",
+        "D": "发送电子邮件"
+      },
+      "answer": "B",
+      "explanation": "DNS（域名系统）的主要作用是将便于人类记忆的域名解析为对应的IP地址，也支持反向解析。"
+    },
+    {
+      "id": 62,
+      "category": "ch06_应用层",
+      "difficulty": 1,
+      "question": "HTTP协议工作在OSI模型的（ ）",
+      "options": {
+        "A": "传输层",
+        "B": "会话层",
+        "C": "表示层",
+        "D": "应用层"
+      },
+      "answer": "D",
+      "explanation": "HTTP（超文本传输协议）是万维网的核心协议，属于应用层协议，基于TCP 80端口传输。"
+    },
+    {
+      "id": 63,
+      "category": "ch06_应用层",
+      "difficulty": 1,
+      "question": "FTP协议的主要功能是（ ）",
+      "options": {
+        "A": "远程登录",
+        "B": "文件传输",
+        "C": "电子邮件",
+        "D": "网页浏览"
+      },
+      "answer": "B",
+      "explanation": "FTP（文件传输协议）用于在网络中不同主机之间进行文件的上传和下载，是互联网上最早的应用层协议之一。"
+    },
+    {
+      "id": 64,
+      "category": "ch06_应用层",
+      "difficulty": 1,
+      "question": "SMTP协议用于（ ）",
+      "options": {
+        "A": "接收邮件",
+        "B": "发送邮件",
+        "C": "浏览网页",
+        "D": "文件传输"
+      },
+      "answer": "B",
+      "explanation": "SMTP（简单邮件传输协议）用于发送和转发电子邮件，默认使用TCP 25端口。POP3和IMAP用于接收邮件。"
+    },
+    {
+      "id": 65,
+      "category": "ch06_应用层",
+      "difficulty": 1,
+      "question": "POP3协议用于（ ）",
+      "options": {
+        "A": "发送邮件",
+        "B": "接收邮件",
+        "C": "域名解析",
+        "D": "远程登录"
+      },
+      "answer": "B",
+      "explanation": "POP3（邮局协议版本3）用于电子邮件客户端从服务器下载邮件到本地，默认使用TCP 110端口。"
+    },
+    {
+      "id": 66,
+      "category": "ch06_应用层",
+      "difficulty": 1,
+      "question": "Telnet协议的主要功能是（ ）",
+      "options": {
+        "A": "文件传输",
+        "B": "远程登录",
+        "C": "电子邮件",
+        "D": "网页浏览"
+      },
+      "answer": "B",
+      "explanation": "Telnet是远程登录协议，用户可以通过本地计算机登录到远程主机，执行命令和操作，默认使用TCP 23端口。"
+    },
+    {
+      "id": 67,
+      "category": "ch06_应用层",
+      "difficulty": 1,
+      "question": "WWW服务使用的协议是（ ）",
+      "options": {
+        "A": "FTP",
+        "B": "HTTP",
+        "C": "SMTP",
+        "D": "DNS"
+      },
+      "answer": "B",
+      "explanation": "万维网（WWW）基于HTTP协议传输超文本内容，通过URL定位资源，HTML描述网页内容。"
+    },
+    {
+      "id": 68,
+      "category": "ch06_应用层",
+      "difficulty": 1,
+      "question": "URL的全称是（ ）",
+      "options": {
+        "A": "统一资源定位符",
+        "B": "超文本标记语言",
+        "C": "简单邮件传输协议",
+        "D": "域名系统"
+      },
+      "answer": "A",
+      "explanation": "URL（Uniform Resource Locator）即统一资源定位符，用于唯一标识互联网上的资源位置，俗称网址。"
+    },
+    {
+      "id": 69,
+      "category": "ch06_应用层",
+      "difficulty": 1,
+      "question": "HTML的全称是（ ）",
+      "options": {
+        "A": "超文本传输协议",
+        "B": "超文本标记语言",
+        "C": "统一资源定位符",
+        "D": "简单网络管理协议"
+      },
+      "answer": "B",
+      "explanation": "HTML（HyperText Markup Language）即超文本标记语言，是用于创建网页的标准标记语言。"
+    },
+    {
+      "id": 70,
+      "category": "ch06_应用层",
+      "difficulty": 1,
+      "question": "DHCP协议的作用是（ ）",
+      "options": {
+        "A": "域名解析",
+        "B": "动态分配IP地址",
+        "C": "文件传输",
+        "D": "远程登录"
+      },
+      "answer": "B",
+      "explanation": "DHCP（动态主机配置协议）用于为主机自动分配IP地址、子网掩码、网关、DNS等网络参数，简化网络管理。"
+    },
+    {
+      "id": 71,
+      "category": "ch06_应用层",
+      "difficulty": 1,
+      "question": "下列协议中，用于远程登录且支持加密的是（ ）",
+      "options": {
+        "A": "Telnet",
+        "B": "SSH",
+        "C": "FTP",
+        "D": "HTTP"
+      },
+      "answer": "B",
+      "explanation": "SSH（安全外壳协议）是加密的远程登录协议，替代了不安全的Telnet，默认使用TCP 22端口。"
+    },
+    {
+      "id": 72,
+      "category": "ch06_应用层",
+      "difficulty": 1,
+      "question": "IMAP协议与POP3协议的主要区别是（ ）",
+      "options": {
+        "A": "IMAP用于发送邮件，POP3用于接收邮件",
+        "B": "IMAP支持在线操作邮件，POP3下载后删除服务器邮件",
+        "C": "IMAP使用UDP，POP3使用TCP",
+        "D": "IMAP端口号是110，POP3端口号是143"
+      },
+      "answer": "B",
+      "explanation": "IMAP是互联网消息访问协议，支持在线管理邮件，邮件保留在服务器；POP3默认下载后删除服务器邮件，适合单设备使用。"
+    },
+    {
+      "id": 73,
+      "category": "ch06_应用层",
+      "difficulty": 1,
+      "question": "HTTP请求方法中，用于获取资源的是（ ）",
+      "options": {
+        "A": "GET",
+        "B": "POST",
+        "C": "PUT",
+        "D": "DELETE"
+      },
+      "answer": "A",
+      "explanation": "GET方法用于请求获取指定的资源，是最常用的HTTP方法；POST用于提交数据，PUT用于上传资源，DELETE用于删除资源。"
+    },
+    {
+      "id": 74,
+      "category": "ch06_应用层",
+      "difficulty": 1,
+      "question": "HTTP状态码404表示（ ）",
+      "options": {
+        "A": "请求成功",
+        "B": "重定向",
+        "C": "客户端错误，资源未找到",
+        "D": "服务器内部错误"
+      },
+      "answer": "C",
+      "explanation": "HTTP 404状态码表示客户端请求的资源在服务器上不存在。200表示成功，3xx表示重定向，5xx表示服务器错误。"
+    },
+    {
+      "id": 75,
+      "category": "ch06_应用层",
+      "difficulty": 1,
+      "question": "HTTP状态码200表示（ ）",
+      "options": {
+        "A": "请求成功",
+        "B": "永久重定向",
+        "C": "未授权",
+        "D": "服务器错误"
+      },
+      "answer": "A",
+      "explanation": "HTTP 200 OK是最常见的成功状态码，表示请求已成功，请求所希望的响应头或数据体将随此响应返回。"
+    },
+    {
+      "id": 76,
+      "category": "ch07_网络安全与新趋势",
+      "difficulty": 1,
+      "question": "防火墙的主要作用是（ ）",
+      "options": {
+        "A": "查杀病毒",
+        "B": "访问控制，隔离内外网",
+        "C": "数据备份",
+        "D": "负载均衡"
+      },
+      "answer": "B",
+      "explanation": "防火墙通过预设的安全规则对进出网络的流量进行访问控制，隔离内部网络和外部不可信网络，保障网络安全。"
+    },
+    {
+      "id": 77,
+      "category": "ch07_网络安全与新趋势",
+      "difficulty": 1,
+      "question": "HTTPS使用的安全协议是（ ）",
+      "options": {
+        "A": "SSL/TLS",
+        "B": "IPsec",
+        "C": "PPTP",
+        "D": "L2TP"
+      },
+      "answer": "A",
+      "explanation": "HTTPS在HTTP和TCP之间加入SSL/TLS层，通过加密和身份认证机制保障通信安全，广泛用于网页安全访问。"
+    },
+    {
+      "id": 78,
+      "category": "ch07_网络安全与新趋势",
+      "difficulty": 1,
+      "question": "下列属于对称加密算法的是（ ）",
+      "options": {
+        "A": "RSA",
+        "B": "DES",
+        "C": "SHA-256",
+        "D": "MD5"
+      },
+      "answer": "B",
+      "explanation": "DES是典型的对称加密算法，加密和解密使用相同密钥。RSA是非对称加密算法，SHA-256和MD5是哈希算法。"
+    },
+    {
+      "id": 79,
+      "category": "ch07_网络安全与新趋势",
+      "difficulty": 1,
+      "question": "下列属于非对称加密算法的是（ ）",
+      "options": {
+        "A": "AES",
+        "B": "DES",
+        "C": "RSA",
+        "D": "3DES"
+      },
+      "answer": "C",
+      "explanation": "RSA是应用最广泛的非对称加密算法，使用公钥加密、私钥解密，或私钥签名、公钥验证。AES、DES、3DES都是对称加密。"
+    },
+    {
+      "id": 80,
+      "category": "ch07_网络安全与新趋势",
+      "difficulty": 1,
+      "question": "数字签名主要用于（ ）",
+      "options": {
+        "A": "数据加密",
+        "B": "身份认证和防抵赖",
+        "C": "数据压缩",
+        "D": "病毒查杀"
+      },
+      "answer": "B",
+      "explanation": "数字签名基于非对称加密实现，用于验证消息发送者身份，确保消息完整性，并防止发送者事后抵赖。"
+    },
+    {
+      "id": 81,
+      "category": "ch07_网络安全与新趋势",
+      "difficulty": 1,
+      "question": "DoS攻击的主要目的是（ ）",
+      "options": {
+        "A": "窃取用户密码",
+        "B": "使目标系统无法提供正常服务",
+        "C": "植入木马",
+        "D": "篡改网页内容"
+      },
+      "answer": "B",
+      "explanation": "DoS（拒绝服务攻击）通过大量消耗目标系统的带宽、CPU、内存等资源，使目标系统瘫痪，无法为正常用户提供服务。"
+    },
+    {
+      "id": 82,
+      "category": "ch07_网络安全与新趋势",
+      "difficulty": 1,
+      "question": "VPN的中文名称是（ ）",
+      "options": {
+        "A": "虚拟局域网",
+        "B": "虚拟专用网",
+        "C": "无线局域网",
+        "D": "存储区域网络"
+      },
+      "answer": "B",
+      "explanation": "VPN（Virtual Private Network）即虚拟专用网，通过公用网络建立加密的专用通信隧道，实现跨地域的安全内网访问。"
+    },
+    {
+      "id": 83,
+      "category": "ch07_网络安全与新趋势",
+      "difficulty": 1,
+      "question": "MD5是一种（ ）算法",
+      "options": {
+        "A": "对称加密",
+        "B": "非对称加密",
+        "C": "哈希摘要",
+        "D": "数字签名"
+      },
+      "answer": "C",
+      "explanation": "MD5是常用的哈希（消息摘要）算法，将任意长度的数据映射为固定长度（128位）的摘要值，用于数据完整性校验。"
+    },
+    {
+      "id": 84,
+      "category": "ch07_网络安全与新趋势",
+      "difficulty": 1,
+      "question": "ARP欺骗攻击发生在（ ）",
+      "options": {
+        "A": "物理层",
+        "B": "数据链路层",
+        "C": "网络层",
+        "D": "传输层"
+      },
+      "answer": "B",
+      "explanation": "ARP欺骗通过伪造ARP报文，欺骗主机的ARP缓存，将IP地址映射到错误的MAC地址，发生在数据链路层。"
+    },
+    {
+      "id": 85,
+      "category": "ch07_网络安全与新趋势",
+      "difficulty": 1,
+      "question": "公钥基础设施的英文缩写是（ ）",
+      "options": {
+        "A": "IDS",
+        "B": "IPS",
+        "C": "PKI",
+        "D": "AAA"
+      },
+      "answer": "C",
+      "explanation": "PKI（Public Key Infrastructure）即公钥基础设施，通过数字证书管理公钥，提供身份认证、数据加密等安全服务。"
+    },
+    {
+      "id": 86,
+      "category": "ch07_网络安全与新趋势",
+      "difficulty": 1,
+      "question": "ISO的全称是（ ）",
+      "options": {
+        "A": "国际标准化组织",
+        "B": "电气和电子工程师协会",
+        "C": "互联网工程任务组",
+        "D": "国际电信联盟"
+      },
+      "answer": "A",
+      "explanation": "ISO（International Organization for Standardization）即国际标准化组织，是制定国际标准的全球性非政府组织。"
+    },
+    {
+      "id": 87,
+      "category": "ch07_网络安全与新趋势",
+      "difficulty": 1,
+      "question": "IEEE 802标准主要针对（ ）",
+      "options": {
+        "A": "广域网",
+        "B": "局域网和城域网",
+        "C": "互联网",
+        "D": "移动通信网"
+      },
+      "answer": "B",
+      "explanation": "IEEE 802是局域网和城域网的标准系列，其中802.3是以太网标准，802.11是无线局域网标准。"
+    },
+    {
+      "id": 88,
+      "category": "ch07_网络安全与新趋势",
+      "difficulty": 1,
+      "question": "WiFi对应的IEEE标准是（ ）",
+      "options": {
+        "A": "IEEE 802.3",
+        "B": "IEEE 802.5",
+        "C": "IEEE 802.11",
+        "D": "IEEE 802.15"
+      },
+      "answer": "C",
+      "explanation": "IEEE 802.11是无线局域网（WLAN）标准，也就是通常所说的WiFi技术标准。"
+    },
+    {
+      "id": 89,
+      "category": "ch07_网络安全与新趋势",
+      "difficulty": 1,
+      "question": "以太网对应的IEEE标准是（ ）",
+      "options": {
+        "A": "IEEE 802.2",
+        "B": "IEEE 802.3",
+        "C": "IEEE 802.5",
+        "D": "IEEE 802.11"
+      },
+      "answer": "B",
+      "explanation": "IEEE 802.3是以太网的标准，定义了CSMA/CD介质访问控制方法和物理层规范。"
+    },
+    {
+      "id": 90,
+      "category": "ch07_网络安全与新趋势",
+      "difficulty": 1,
+      "question": "网络协议的三要素是（ ）",
+      "options": {
+        "A": "语法、语义、同步",
+        "B": "编码、解码、传输",
+        "C": "发送方、接收方、信道",
+        "D": "物理层、数据链路层、网络层"
+      },
+      "answer": "A",
+      "explanation": "网络协议三要素：语法（数据格式）、语义（控制信息含义）、同步（时序和速率匹配）。"
+    },
+    {
+      "id": 91,
+      "category": "ch07_网络安全与新趋势",
+      "difficulty": 1,
+      "question": "ATM技术采用的交换方式是（ ）",
+      "options": {
+        "A": "电路交换",
+        "B": "报文交换",
+        "C": "分组交换",
+        "D": "信元交换"
+      },
+      "answer": "D",
+      "explanation": "ATM（异步传输模式）采用固定长度（53字节）的信元进行交换，结合了电路交换和分组交换的优点，曾用于宽带综合业务网。"
+    },
+    {
+      "id": 92,
+      "category": "ch07_网络安全与新趋势",
+      "difficulty": 1,
+      "question": "CSMA/CD的中文全称是（ ）",
+      "options": {
+        "A": "载波监听多路访问/冲突检测",
+        "B": "载波监听多路访问/冲突避免",
+        "C": "码分多址/冲突检测",
+        "D": "时分多址/冲突避免"
+      },
+      "answer": "A",
+      "explanation": "CSMA/CD（Carrier Sense Multiple Access with Collision Detection）即载波监听多路访问/冲突检测，是传统以太网的介质访问控制方法。"
+    },
+    {
+      "id": 93,
+      "category": "ch07_网络安全与新趋势",
+      "difficulty": 1,
+      "question": "下列传输介质中，抗电磁干扰能力最强的是（ ）",
+      "options": {
+        "A": "双绞线",
+        "B": "同轴电缆",
+        "C": "光纤",
+        "D": "无线电波"
+      },
+      "answer": "C",
+      "explanation": "光纤通过光信号传输数据，不受电磁干扰和射频干扰，保密性好，适合强电磁干扰环境下使用。"
+    },
+    {
+      "id": 94,
+      "category": "ch07_网络安全与新趋势",
+      "difficulty": 1,
+      "question": "MTU的中文含义是（ ）",
+      "options": {
+        "A": "最大传输单元",
+        "B": "最小传输单元",
+        "C": "最大报文长度",
+        "D": "最小帧长度"
+      },
+      "answer": "A",
+      "explanation": "MTU（Maximum Transmission Unit）即最大传输单元，指数据链路层能够传输的最大数据载荷长度，以太网默认MTU为1500字节。"
+    },
+    {
+      "id": 95,
+      "category": "ch07_网络安全与新趋势",
+      "difficulty": 1,
+      "question": "NAT的主要作用是（ ）",
+      "options": {
+        "A": "域名解析",
+        "B": "网络地址转换，节省公网IP",
+        "C": "路由选择",
+        "D": "流量控制"
+      },
+      "answer": "B",
+      "explanation": "NAT（网络地址转换）将私网IP地址转换为公网IP地址，实现多台主机共享少量公网IP上网，同时隐藏内部网络结构。"
+    },
+    {
+      "id": 96,
+      "category": "ch07_网络安全与新趋势",
+      "difficulty": 1,
+      "question": "SNMP协议用于（ ）",
+      "options": {
+        "A": "文件传输",
+        "B": "网络管理",
+        "C": "电子邮件",
+        "D": "域名解析"
+      },
+      "answer": "B",
+      "explanation": "SNMP（简单网络管理协议）是应用层协议，用于网络设备的监控和管理，是TCP/IP网络管理的标准协议。"
+    },
+    {
+      "id": 97,
+      "category": "ch07_网络安全与新趋势",
+      "difficulty": 1,
+      "question": "ICMP报文封装在（ ）中传输",
+      "options": {
+        "A": "TCP报文段",
+        "B": "UDP数据报",
+        "C": "IP数据报",
+        "D": "以太网帧"
+      },
+      "answer": "C",
+      "explanation": "ICMP是网络层协议，报文直接封装在IP数据报的数据部分传输，不使用TCP或UDP。"
+    },
+    {
+      "id": 98,
+      "category": "ch07_网络安全与新趋势",
+      "difficulty": 1,
+      "question": "网桥工作在OSI模型的（ ）",
+      "options": {
+        "A": "物理层",
+        "B": "数据链路层",
+        "C": "网络层",
+        "D": "传输层"
+      },
+      "answer": "B",
+      "explanation": "网桥工作在数据链路层，根据MAC地址转发帧，可以隔离冲突域，但不能隔离广播域，交换机本质上是多端口网桥。"
+    },
+    {
+      "id": 99,
+      "category": "ch07_网络安全与新趋势",
+      "difficulty": 1,
+      "question": "集线器工作在OSI模型的（ ）",
+      "options": {
+        "A": "物理层",
+        "B": "数据链路层",
+        "C": "网络层",
+        "D": "传输层"
+      },
+      "answer": "A",
+      "explanation": "集线器是物理层设备，仅对电信号进行放大和转发，不具备地址识别能力，所有端口共享带宽，处于同一冲突域。"
+    },
+    {
+      "id": 100,
+      "category": "ch07_网络安全与新趋势",
+      "difficulty": 1,
+      "question": "TCP/IP参考模型共分为四层，从下到上依次是（ ）",
+      "options": {
+        "A": "物理层、数据链路层、网络层、传输层",
+        "B": "网络接口层、网际层、传输层、应用层",
+        "C": "数据链路层、网络层、传输层、应用层",
+        "D": "网络接口层、传输层、网际层、应用层"
+      },
+      "answer": "B",
+      "explanation": "TCP/IP四层模型从下到上：网络接口层（对应OSI物理层+数据链路层）、网际层（IP层）、传输层（TCP/UDP层）、应用层。"
+    }
+  ],
+  "judges": [
+    {
+      "id": 1,
+      "category": "ch07_网络安全与新趋势",
+      "difficulty": 1,
+      "question": "计算机网络的主要功能是数据通信和资源共享。",
+      "answer": true,
+      "explanation": "数据通信是最基本功能，资源共享是核心功能，包括硬件、软件和数据资源共享。"
+    },
+    {
+      "id": 2,
+      "category": "ch07_网络安全与新趋势",
+      "difficulty": 1,
+      "question": "按覆盖范围划分，城域网的覆盖范围比局域网小。",
+      "answer": false,
+      "explanation": "覆盖范围从小到大：局域网（LAN）< 城域网（MAN）< 广域网（WAN）。"
+    },
+    {
+      "id": 3,
+      "category": "ch01_概述与体系结构",
+      "difficulty": 1,
+      "question": "OSI参考模型共分为7层，TCP/IP参考模型共分为4层。",
+      "answer": true,
+      "explanation": "OSI七层：物理层、数据链路层、网络层、传输层、会话层、表示层、应用层；TCP/IP四层：网络接口层、网际层、传输层、应用层。"
+    },
+    {
+      "id": 4,
+      "category": "ch07_网络安全与新趋势",
+      "difficulty": 1,
+      "question": "网络协议的三要素是语法、语义和同步。",
+      "answer": true,
+      "explanation": "语法规定数据格式，语义规定控制信息含义，同步规定时序和速率匹配。"
+    },
+    {
+      "id": 5,
+      "category": "ch02_物理层",
+      "difficulty": 1,
+      "question": "物理层传输的数据单位是比特。",
+      "answer": true,
+      "explanation": "物理层负责在传输介质上传输原始的二进制比特流。"
+    },
+    {
+      "id": 6,
+      "category": "ch02_物理层",
+      "difficulty": 1,
+      "question": "双绞线是目前带宽最宽、抗干扰能力最强的传输介质。",
+      "answer": false,
+      "explanation": "光纤才是带宽最宽、抗干扰能力最强、传输距离最远的有线传输介质。"
+    },
+    {
+      "id": 7,
+      "category": "ch02_物理层",
+      "difficulty": 1,
+      "question": "调制解调器的作用是实现数字信号与模拟信号的相互转换。",
+      "answer": true,
+      "explanation": "发送端调制（数字转模拟），接收端解调（模拟转数字），Modem是调制器和解调器的合称。"
+    },
+    {
+      "id": 8,
+      "category": "ch02_物理层",
+      "difficulty": 1,
+      "question": "频分复用是按时间划分信道，同一时间多个信号占用不同时隙。",
+      "answer": false,
+      "explanation": "频分复用（FDM）按频率划分信道；时分复用（TDM）才是按时间划分时隙。"
+    },
+    {
+      "id": 9,
+      "category": "ch03_数据链路层",
+      "difficulty": 1,
+      "question": "数据链路层的数据单位是帧。",
+      "answer": true,
+      "explanation": "数据链路层将网络层的IP数据报加上首部和尾部封装成帧，在相邻节点间传输。"
+    },
+    {
+      "id": 10,
+      "category": "ch03_数据链路层",
+      "difficulty": 1,
+      "question": "以太网采用CSMA/CA介质访问控制方法。",
+      "answer": false,
+      "explanation": "以太网采用CSMA/CD（载波监听多路访问/冲突检测）；无线局域网采用CSMA/CA（冲突避免）。"
+    },
+    {
+      "id": 11,
+      "category": "ch03_数据链路层",
+      "difficulty": 1,
+      "question": "MAC地址长度为48位，通常用十六进制表示。",
+      "answer": true,
+      "explanation": "MAC地址是物理地址，固化在网卡ROM中，48位二进制，通常表示为12个十六进制字符。"
+    },
+    {
+      "id": 12,
+      "category": "ch03_数据链路层",
+      "difficulty": 1,
+      "question": "交换机工作在网络层，可以隔离广播域。",
+      "answer": false,
+      "explanation": "交换机工作在数据链路层，可以隔离冲突域，但默认不能隔离广播域；路由器工作在网络层，可以隔离广播域。"
+    },
+    {
+      "id": 13,
+      "category": "ch03_数据链路层",
+      "difficulty": 1,
+      "question": "CRC循环冗余校验是一种差错检测方法，不能纠正差错。",
+      "answer": true,
+      "explanation": "CRC只能检测出传输中的比特差错，发现差错后通常直接丢弃或请求重传，本身不具备纠错能力。"
+    },
+    {
+      "id": 14,
+      "category": "ch03_数据链路层",
+      "difficulty": 1,
+      "question": "PPP协议是一种点对点的数据链路层协议。",
+      "answer": true,
+      "explanation": "PPP（Point-to-Point Protocol）用于点对点链路上的数据传输，常用于拨号、专线等场景。"
+    },
+    {
+      "id": 15,
+      "category": "ch04_网络层",
+      "difficulty": 1,
+      "question": "IPv4地址长度为32位，IPv6地址长度为128位。",
+      "answer": true,
+      "explanation": "IPv4是32位二进制地址，点分十进制表示；IPv6是128位，冒分十六进制表示。"
+    },
+    {
+      "id": 16,
+      "category": "ch04_网络层",
+      "difficulty": 1,
+      "question": "ARP协议的作用是将MAC地址解析为IP地址。",
+      "answer": false,
+      "explanation": "ARP是将IP地址解析为MAC地址；RARP才是将MAC地址解析为IP地址。"
+    },
+    {
+      "id": 17,
+      "category": "ch04_网络层",
+      "difficulty": 1,
+      "question": "ICMP报文封装在IP数据报中传输。",
+      "answer": true,
+      "explanation": "ICMP是网络层协议，直接封装在IP数据报的数据部分，不使用传输层协议。"
+    },
+    {
+      "id": 18,
+      "category": "ch04_网络层",
+      "difficulty": 1,
+      "question": "路由器工作在数据链路层。",
+      "answer": false,
+      "explanation": "路由器工作在网络层，根据IP地址进行路由选择和转发分组。"
+    },
+    {
+      "id": 19,
+      "category": "ch04_网络层",
+      "difficulty": 1,
+      "question": "RIP协议是一种内部网关协议，基于距离向量算法。",
+      "answer": true,
+      "explanation": "RIP是IGP的一种，以跳数为度量，最大跳数15，属于距离向量路由协议。"
+    },
+    {
+      "id": 20,
+      "category": "ch04_网络层",
+      "difficulty": 1,
+      "question": "BGP是外部网关协议，用于自治系统之间交换路由信息。",
+      "answer": true,
+      "explanation": "BGP（边界网关协议）是EGP，是互联网的核心路由协议，负责AS之间的路由可达。"
+    },
+    {
+      "id": 21,
+      "category": "ch05_传输层",
+      "difficulty": 1,
+      "question": "TCP是面向连接的、可靠的传输层协议。",
+      "answer": true,
+      "explanation": "TCP提供面向连接、可靠的字节流服务，有确认、重传、流量控制、拥塞控制机制。"
+    },
+    {
+      "id": 22,
+      "category": "ch05_传输层",
+      "difficulty": 1,
+      "question": "UDP是无连接的、不可靠的传输层协议。",
+      "answer": true,
+      "explanation": "UDP提供无连接、尽最大努力交付的数据报服务，开销小、时延低，适合实时应用。"
+    },
+    {
+      "id": 23,
+      "category": "ch05_传输层",
+      "difficulty": 1,
+      "question": "TCP建立连接需要三次握手，释放连接需要四次挥手。",
+      "answer": true,
+      "explanation": "三次握手确保双方收发能力正常，同步序列号；四次挥手因为TCP全双工，两个方向需要分别关闭。"
+    },
+    {
+      "id": 24,
+      "category": "ch05_传输层",
+      "difficulty": 1,
+      "question": "端口号用于标识主机中的不同应用进程。",
+      "answer": true,
+      "explanation": "传输层通过端口号实现多路复用和分用，IP+端口号唯一标识网络中的一个进程。"
+    },
+    {
+      "id": 25,
+      "category": "ch05_传输层",
+      "difficulty": 1,
+      "question": "HTTP协议默认使用TCP 80端口，HTTPS默认使用TCP 443端口。",
+      "answer": true,
+      "explanation": "80是HTTP熟知端口，443是HTTPS熟知端口。"
+    },
+    {
+      "id": 26,
+      "category": "ch05_传输层",
+      "difficulty": 1,
+      "question": "TCP滑动窗口机制用于拥塞控制。",
+      "answer": false,
+      "explanation": "滑动窗口是流量控制机制，控制发送方速率不超过接收方缓存能力；拥塞控制有慢启动、拥塞避免等算法。"
+    },
+    {
+      "id": 27,
+      "category": "ch06_应用层",
+      "difficulty": 1,
+      "question": "DNS的作用是将域名解析为IP地址。",
+      "answer": true,
+      "explanation": "域名系统主要完成域名到IP地址的正向解析，也支持反向解析。"
+    },
+    {
+      "id": 28,
+      "category": "ch06_应用层",
+      "difficulty": 1,
+      "question": "FTP协议使用一个端口同时完成控制和数据传输。",
+      "answer": false,
+      "explanation": "FTP使用两个独立连接：控制连接（21端口）和数据连接（20端口主动模式）。"
+    },
+    {
+      "id": 29,
+      "category": "ch06_应用层",
+      "difficulty": 1,
+      "question": "SMTP协议用于接收电子邮件，POP3用于发送电子邮件。",
+      "answer": false,
+      "explanation": "SMTP用于发送和转发邮件；POP3和IMAP用于接收邮件。"
+    },
+    {
+      "id": 30,
+      "category": "ch06_应用层",
+      "difficulty": 1,
+      "question": "DHCP协议可以为主机自动分配IP地址等网络参数。",
+      "answer": true,
+      "explanation": "动态主机配置协议DHCP实现IP地址、子网掩码、网关、DNS等参数的自动分配。"
+    },
+    {
+      "id": 31,
+      "category": "ch07_网络安全与新趋势",
+      "difficulty": 1,
+      "question": "防火墙可以完全防止病毒入侵。",
+      "answer": false,
+      "explanation": "防火墙主要做访问控制，无法查杀病毒，病毒防护需要杀毒软件等安全措施。"
+    },
+    {
+      "id": 32,
+      "category": "ch07_网络安全与新趋势",
+      "difficulty": 1,
+      "question": "RSA是一种非对称加密算法。",
+      "answer": true,
+      "explanation": "RSA是最经典的非对称加密算法，有公钥和私钥一对密钥。"
+    },
+    {
+      "id": 33,
+      "category": "ch07_网络安全与新趋势",
+      "difficulty": 1,
+      "question": "数字签名可以实现身份认证和防止抵赖。",
+      "answer": true,
+      "explanation": "数字签名用私钥签名，公钥验证，可以确认发送者身份，且发送者无法否认。"
+    },
+    {
+      "id": 34,
+      "category": "ch07_网络安全与新趋势",
+      "difficulty": 1,
+      "question": "DoS攻击的目的是窃取用户的敏感数据。",
+      "answer": false,
+      "explanation": "DoS是拒绝服务攻击，目的是让目标系统瘫痪无法提供服务，不是窃取数据。"
+    },
+    {
+      "id": 35,
+      "category": "ch07_网络安全与新趋势",
+      "difficulty": 1,
+      "question": "NAT可以实现私网地址到公网地址的转换。",
+      "answer": true,
+      "explanation": "网络地址转换NAT解决公网IP不足问题，多台私网主机共享公网IP上网。"
+    },
+    {
+      "id": 36,
+      "category": "ch07_网络安全与新趋势",
+      "difficulty": 1,
+      "question": "集线器工作在数据链路层。",
+      "answer": false,
+      "explanation": "集线器是物理层设备，仅放大转发电信号，没有地址识别能力。"
+    },
+    {
+      "id": 37,
+      "category": "ch07_网络安全与新趋势",
+      "difficulty": 1,
+      "question": "MTU指的是最大传输单元，以太网默认MTU是1500字节。",
+      "answer": true,
+      "explanation": "MTU是数据链路层最大载荷长度，以太网标准MTU为1500字节。"
+    },
+    {
+      "id": 38,
+      "category": "ch07_网络安全与新趋势",
+      "difficulty": 1,
+      "question": "IEEE 802.3是无线局域网的标准。",
+      "answer": false,
+      "explanation": "IEEE 802.3是以太网标准；IEEE 802.11是无线局域网（WiFi）标准。"
+    },
+    {
+      "id": 39,
+      "category": "ch07_网络安全与新趋势",
+      "difficulty": 1,
+      "question": "VLAN可以将一个物理局域网逻辑上划分为多个广播域。",
+      "answer": true,
+      "explanation": "虚拟局域网VLAN通过交换机端口划分，不同VLAN属于不同广播域，二层不能直接通信。"
+    },
+    {
+      "id": 40,
+      "category": "ch07_网络安全与新趋势",
+      "difficulty": 1,
+      "question": "ping命令是基于ICMP协议实现的。",
+      "answer": true,
+      "explanation": "ping发送ICMP回显请求报文，接收回显应答报文，测试网络连通性。"
+    }
+  ],
+  "fills": [
+    {
+      "id": 1,
+      "category": "ch07_网络安全与新趋势",
+      "difficulty": 1,
+      "question": "计算机网络按覆盖范围可分为局域网、____和广域网。",
+      "answer": "城域网",
+      "explanation": "按地理覆盖范围从小到大依次为局域网（LAN）、城域网（MAN）、广域网（WAN）。"
+    },
+    {
+      "id": 2,
+      "category": "ch01_概述与体系结构",
+      "difficulty": 1,
+      "question": "OSI参考模型从下到上的第四层是____。",
+      "answer": "传输层",
+      "explanation": "OSI七层依次为：物理层、数据链路层、网络层、传输层、会话层、表示层、应用层。"
+    },
+    {
+      "id": 3,
+      "category": "ch07_网络安全与新趋势",
+      "difficulty": 1,
+      "question": "网络协议的三要素是语法、____和同步。",
+      "answer": "语义",
+      "explanation": "语法规定数据与控制信息的结构格式；语义规定需要发出何种控制信息及动作；同步规定事件实现顺序和速率匹配。"
+    },
+    {
+      "id": 4,
+      "category": "ch04_网络层",
+      "difficulty": 1,
+      "question": "TCP/IP参考模型分为四层，分别是网络接口层、____、传输层和应用层。",
+      "answer": "网际层",
+      "explanation": "TCP/IP四层模型：网络接口层、网际层（IP层）、传输层（TCP/UDP层）、应用层。"
+    },
+    {
+      "id": 5,
+      "category": "ch02_物理层",
+      "difficulty": 1,
+      "question": "物理层传输的数据单位是____。",
+      "answer": "比特",
+      "explanation": "物理层负责在传输介质上传输原始的二进制比特流，单位是比特（bit）。"
+    },
+    {
+      "id": 6,
+      "category": "ch02_物理层",
+      "difficulty": 1,
+      "question": "常用的有线传输介质有双绞线、同轴电缆和____。",
+      "answer": "光纤",
+      "explanation": "三大有线传输介质：双绞线、同轴电缆、光纤，其中光纤性能最优。"
+    },
+    {
+      "id": 7,
+      "category": "ch02_物理层",
+      "difficulty": 1,
+      "question": "调制解调器的功能是实现数字信号与____的相互转换。",
+      "answer": "模拟信号",
+      "explanation": "调制是数字转模拟，解调是模拟转数字，Modem同时具备两种功能。"
+    },
+    {
+      "id": 8,
+      "category": "ch02_物理层",
+      "difficulty": 1,
+      "question": "多路复用技术主要有频分复用、____、波分复用和码分复用。",
+      "answer": "时分复用",
+      "explanation": "四种基本复用方式：FDM频分、TDM时分、WDM波分、CDM码分。"
+    },
+    {
+      "id": 9,
+      "category": "ch03_数据链路层",
+      "difficulty": 1,
+      "question": "数据链路层的数据封装单位是____。",
+      "answer": "帧",
+      "explanation": "数据链路层将网络层数据报加上首部尾部封装成帧，进行差错控制和流量控制。"
+    },
+    {
+      "id": 10,
+      "category": "ch03_数据链路层",
+      "difficulty": 1,
+      "question": "传统以太网采用的介质访问控制方法是____。",
+      "answer": "CSMA/CD",
+      "explanation": "CSMA/CD即载波监听多路访问/冲突检测，是共享式以太网的核心机制。"
+    },
+    {
+      "id": 11,
+      "category": "ch03_数据链路层",
+      "difficulty": 1,
+      "question": "MAC地址的长度是____位。",
+      "answer": "48",
+      "explanation": "物理地址MAC为48位二进制，通常表示为12个十六进制字符。"
+    },
+    {
+      "id": 12,
+      "category": "ch03_数据链路层",
+      "difficulty": 1,
+      "question": "以太网数据帧的最小长度是____字节。",
+      "answer": "64",
+      "explanation": "以太网帧最小64字节，最大1518字节，不足64字节需要填充。"
+    },
+    {
+      "id": 13,
+      "category": "ch03_数据链路层",
+      "difficulty": 1,
+      "question": "交换机工作在OSI模型的____层。",
+      "answer": "数据链路",
+      "explanation": "交换机根据MAC地址转发帧，属于数据链路层设备。"
+    },
+    {
+      "id": 14,
+      "category": "ch03_数据链路层",
+      "difficulty": 1,
+      "question": "CRC的中文全称是____。",
+      "answer": "循环冗余校验",
+      "explanation": "CRC（Cyclic Redundancy Check）是广泛应用的差错检测编码。"
+    },
+    {
+      "id": 15,
+      "category": "ch04_网络层",
+      "difficulty": 1,
+      "question": "IPv4地址的长度是____位。",
+      "answer": "32",
+      "explanation": "IPv4地址由32位二进制组成，采用点分十进制表示法。"
+    },
+    {
+      "id": 16,
+      "category": "ch04_网络层",
+      "difficulty": 1,
+      "question": "IPv6地址的长度是____位。",
+      "answer": "128",
+      "explanation": "IPv6地址为128位二进制，采用冒分十六进制表示，地址空间极大。"
+    },
+    {
+      "id": 17,
+      "category": "ch04_网络层",
+      "difficulty": 1,
+      "question": "ARP协议的作用是将IP地址解析为____地址。",
+      "answer": "MAC",
+      "explanation": "地址解析协议ARP通过目标IP地址获取对应的物理地址MAC。"
+    },
+    {
+      "id": 18,
+      "category": "ch04_网络层",
+      "difficulty": 1,
+      "question": "ICMP的中文全称是____。",
+      "answer": "网际控制报文协议",
+      "explanation": "ICMP（Internet Control Message Protocol）用于传递差错报告和控制信息。"
+    },
+    {
+      "id": 19,
+      "category": "ch04_网络层",
+      "difficulty": 1,
+      "question": "路由器工作在OSI模型的____层。",
+      "answer": "网络",
+      "explanation": "路由器根据IP地址路由转发，工作在网络层，可以隔离广播域。"
+    },
+    {
+      "id": 20,
+      "category": "ch04_网络层",
+      "difficulty": 1,
+      "question": "RIP协议最大的跳数是____。",
+      "answer": "15",
+      "explanation": "RIP以跳数为度量，16跳即表示不可达，最大有效跳数为15。"
+    },
+    {
+      "id": 21,
+      "category": "ch05_传输层",
+      "difficulty": 1,
+      "question": "传输层有两个主要协议，分别是TCP和____。",
+      "answer": "UDP",
+      "explanation": "TCP是传输控制协议，可靠面向连接；UDP是用户数据报协议，不可靠无连接。"
+    },
+    {
+      "id": 22,
+      "category": "ch05_传输层",
+      "difficulty": 1,
+      "question": "TCP建立连接需要经过____次握手。",
+      "answer": "三",
+      "explanation": "三次握手：SYN、SYN+ACK、ACK，确保双方收发能力正常，同步初始序列号。"
+    },
+    {
+      "id": 23,
+      "category": "ch05_传输层",
+      "difficulty": 1,
+      "question": "TCP释放连接需要经过____次挥手。",
+      "answer": "四",
+      "explanation": "四次挥手：FIN、ACK、FIN、ACK，因为TCP全双工，两个方向需要分别关闭。"
+    },
+    {
+      "id": 24,
+      "category": "ch05_传输层",
+      "difficulty": 1,
+      "question": "____号用于标识主机中不同的应用进程。",
+      "answer": "端口",
+      "explanation": "传输层端口号是进程的标识，实现多路复用和分用，长度为16位。"
+    },
+    {
+      "id": 25,
+      "category": "ch05_传输层",
+      "difficulty": 1,
+      "question": "HTTP协议默认的端口号是____。",
+      "answer": "80",
+      "explanation": "熟知端口80分配给HTTP协议。"
+    },
+    {
+      "id": 26,
+      "category": "ch05_传输层",
+      "difficulty": 1,
+      "question": "HTTPS协议默认的端口号是____。",
+      "answer": "443",
+      "explanation": "HTTPS默认使用443端口，基于SSL/TLS加密传输。"
+    },
+    {
+      "id": 27,
+      "category": "ch05_传输层",
+      "difficulty": 1,
+      "question": "TCP的____窗口机制用于实现流量控制。",
+      "answer": "滑动",
+      "explanation": "滑动窗口协议允许发送方连续发送多个帧，接收方通过窗口大小控制发送速率。"
+    },
+    {
+      "id": 28,
+      "category": "ch06_应用层",
+      "difficulty": 1,
+      "question": "DNS的中文全称是____。",
+      "answer": "域名系统",
+      "explanation": "DNS（Domain Name System）实现域名与IP地址之间的映射。"
+    },
+    {
+      "id": 29,
+      "category": "ch06_应用层",
+      "difficulty": 1,
+      "question": "FTP的中文全称是____。",
+      "answer": "文件传输协议",
+      "explanation": "FTP（File Transfer Protocol）用于网络中不同主机间的文件上传和下载。"
+    },
+    {
+      "id": 30,
+      "category": "ch06_应用层",
+      "difficulty": 1,
+      "question": "发送电子邮件使用的应用层协议是____。",
+      "answer": "SMTP",
+      "explanation": "SMTP简单邮件传输协议，负责邮件的发送和转发。"
+    },
+    {
+      "id": 31,
+      "category": "ch06_应用层",
+      "difficulty": 1,
+      "question": "DHCP的中文全称是____。",
+      "answer": "动态主机配置协议",
+      "explanation": "DHCP自动为主机分配IP地址、子网掩码、网关、DNS等网络配置参数。"
+    },
+    {
+      "id": 32,
+      "category": "ch07_网络安全与新趋势",
+      "difficulty": 1,
+      "question": "VPN的中文全称是____。",
+      "answer": "虚拟专用网",
+      "explanation": "VPN在公网中建立加密隧道，实现安全的跨地域内网访问。"
+    },
+    {
+      "id": 33,
+      "category": "ch07_网络安全与新趋势",
+      "difficulty": 1,
+      "question": "PKI的中文全称是____。",
+      "answer": "公钥基础设施",
+      "explanation": "PKI是以数字证书为核心，提供身份认证、数据加密等安全服务的基础设施。"
+    },
+    {
+      "id": 34,
+      "category": "ch07_网络安全与新趋势",
+      "difficulty": 1,
+      "question": "NAT的中文全称是____。",
+      "answer": "网络地址转换",
+      "explanation": "NAT实现私网IP与公网IP的转换，节省公网地址，隐藏内部网络。"
+    },
+    {
+      "id": 35,
+      "category": "ch07_网络安全与新趋势",
+      "difficulty": 1,
+      "question": "MTU的中文全称是____。",
+      "answer": "最大传输单元",
+      "explanation": "MTU指数据链路层能够传输的最大数据载荷长度，以太网默认1500字节。"
+    },
+    {
+      "id": 36,
+      "category": "ch07_网络安全与新趋势",
+      "difficulty": 1,
+      "question": "VLAN的中文全称是____。",
+      "answer": "虚拟局域网",
+      "explanation": "VLAN通过交换机将物理局域网逻辑划分为多个独立的广播域。"
+    },
+    {
+      "id": 37,
+      "category": "ch07_网络安全与新趋势",
+      "difficulty": 1,
+      "question": "IEEE 802.3是____网的标准。",
+      "answer": "以太",
+      "explanation": "IEEE 802.3定义了以太网的物理层和数据链路层规范。"
+    },
+    {
+      "id": 38,
+      "category": "ch07_网络安全与新趋势",
+      "difficulty": 1,
+      "question": "IEEE 802.11是____局域网的标准。",
+      "answer": "无线",
+      "explanation": "IEEE 802.11是无线局域网WLAN的标准系列，即WiFi标准。"
+    },
+    {
+      "id": 39,
+      "category": "ch07_网络安全与新趋势",
+      "difficulty": 1,
+      "question": "测试网络连通性常用的命令是____。",
+      "answer": "ping",
+      "explanation": "ping命令基于ICMP协议，发送回显请求并接收应答，测试主机间连通性和时延。"
+    },
+    {
+      "id": 40,
+      "category": "ch07_网络安全与新趋势",
+      "difficulty": 1,
+      "question": "集线器工作在OSI模型的____层。",
+      "answer": "物理",
+      "explanation": "集线器是物理层设备，仅对电信号进行放大和转发，所有端口共享同一冲突域。"
+    }
+  ],
+  "essays": [
+    {
+      "id": 1,
+      "category": "ch01_概述与体系结构",
+      "difficulty": 1,
+      "question": "简述OSI七层参考模型从下到上各层的名称及主要功能。",
+      "answer": "1. 物理层：传输原始比特流，规定物理介质的机械、电气、功能特性。\n2. 数据链路层：将比特封装成帧，负责相邻节点间帧的传输，进行差错控制、流量控制。\n3. 网络层：分组传输、路由选择、拥塞控制、网络互连，实现端到端的寻址。\n4. 传输层：负责主机中进程间的端到端通信，提供可靠或不可靠传输，进行差错恢复和流量控制。\n5. 会话层：建立、管理和终止应用进程间的会话，提供会话同步功能。\n6. 表示层：处理数据的表示问题，包括数据加密、解密、压缩、格式转换。\n7. 应用层：直接为用户应用程序提供服务，如文件传输、电子邮件、网页浏览等。",
+      "explanation": ""
+    },
+    {
+      "id": 2,
+      "category": "ch01_概述与体系结构",
+      "difficulty": 1,
+      "question": "简述TCP/IP四层模型与OSI七层模型的对应关系。",
+      "answer": "TCP/IP四层模型与OSI七层模型对应关系如下：\n1. TCP/IP网络接口层：对应OSI的物理层和数据链路层\n2. TCP/IP网际层（IP层）：对应OSI的网络层\n3. TCP/IP传输层：对应OSI的传输层\n4. TCP/IP应用层：对应OSI的会话层、表示层和应用层",
+      "explanation": ""
+    },
+    {
+      "id": 3,
+      "category": "ch02_物理层",
+      "difficulty": 1,
+      "question": "简述双绞线、同轴电缆、光纤三种有线传输介质的主要特点。",
+      "answer": "1. 双绞线：由两根绝缘铜线绞合而成，分为屏蔽和非屏蔽两类。成本低、易安装、传输距离较短，抗干扰能力一般，广泛用于局域网。\n2. 同轴电缆：由内导体、绝缘层、外屏蔽层和护套组成。抗干扰能力优于双绞线，传输距离较远，带宽较高，曾广泛用于有线电视和早期局域网。\n3. 光纤：利用光的全反射传输光信号。带宽极高、传输距离远、抗电磁干扰能力极强、保密性好、重量轻，但成本较高、施工和维护难度大，是骨干网和长距离传输的首选介质。",
+      "explanation": ""
+    },
+    {
+      "id": 4,
+      "category": "ch02_物理层",
+      "difficulty": 1,
+      "question": "什么是调制解调？为什么需要调制解调器？",
+      "answer": "1. 调制：发送端将数字信号转换为模拟信号的过程，通过改变载波的振幅、频率或相位来承载数字信息。\n2. 解调：接收端将携带数字信息的模拟信号还原为原始数字信号的过程。\n3. 原因：电话线路等模拟信道只能传输模拟信号，而计算机产生的是数字信号，无法直接在模拟信道上传输。调制解调器实现数字信号与模拟信号的相互转换，使得计算机数据可以通过模拟电话线传输。",
+      "explanation": ""
+    },
+    {
+      "id": 5,
+      "category": "ch03_数据链路层",
+      "difficulty": 1,
+      "question": "简述CSMA/CD的工作原理。",
+      "answer": "CSMA/CD（载波监听多路访问/冲突检测）工作原理可概括为四步：\n1. 先听后发：发送数据前先监听信道，若信道空闲则立即发送；若信道忙则等待。\n2. 边发边听：发送过程中继续监听信道，检测是否发生冲突。\n3. 冲突停发：若检测到冲突，立即停止发送数据，并发送干扰信号强化冲突，使所有站点都感知到冲突。\n4. 随机重发：冲突发生后，各站点执行退避算法，等待一段随机时间后重新尝试发送。",
+      "explanation": ""
+    },
+    {
+      "id": 6,
+      "category": "ch03_数据链路层",
+      "difficulty": 2,
+      "question": "要发送的数据为1101011011，采用CRC的生成多项式是G(x)=x⁴+x+1，求CRC校验码。",
+      "answer": "步骤1：生成多项式G(x)=x⁴+x+1对应二进制为10011，共5位，校验码位数为4位。\n步骤2：在数据后添加4个0，被除数为11010110110000。\n步骤3：用模2除法（异或运算）除以除数10011：\n  11010110110000 ÷ 10011 = 1100001010 余 1110\n步骤4：余数1110即为CRC校验码。\n最终发送的数据为：11010110111110",
+      "explanation": ""
+    },
+    {
+      "id": 7,
+      "category": "ch03_数据链路层",
+      "difficulty": 1,
+      "question": "简述停止-等待协议的工作原理。",
+      "answer": "停止-等待协议是最简单的流量控制和可靠传输协议，工作原理如下：\n1. 发送方每发送一帧数据后，就停止发送，等待接收方的确认帧（ACK）。\n2. 接收方收到正确的数据帧后，向发送方返回确认帧ACK。\n3. 发送方收到确认后，再发送下一帧数据。\n4. 若数据帧出错或丢失，接收方不发确认，发送方超时后重传该帧。\n特点：简单易实现，但信道利用率低，适合长时延、低速率链路。",
+      "explanation": ""
+    },
+    {
+      "id": 8,
+      "category": "ch03_数据链路层",
+      "difficulty": 1,
+      "question": "什么是VLAN？VLAN有什么作用？",
+      "answer": "VLAN（虚拟局域网）是通过交换机将一个物理局域网在逻辑上划分成多个独立的广播域的技术。\n作用：\n1. 隔离广播域：减少广播风暴，提高网络带宽利用率。\n2. 提高安全性：不同VLAN之间默认二层不能直接通信，增强数据安全。\n3. 灵活组网：不受物理位置限制，可按部门、功能等逻辑划分网络。\n4. 简化管理：人员变动时只需修改VLAN配置，无需重新布线。",
+      "explanation": ""
+    },
+    {
+      "id": 9,
+      "category": "ch04_网络层",
+      "difficulty": 2,
+      "question": "已知IP地址为192.168.1.100，子网掩码为255.255.255.192，求该IP所在的网络地址、广播地址、可用主机地址范围。",
+      "answer": "子网掩码255.255.255.192即/26，第四个字节二进制为11000000，块大小为64。\n1. 网络地址：100除以64取整为1，1×64=64，故网络地址为192.168.1.64\n2. 广播地址：下一个网络号减1，即128-1=127，广播地址为192.168.1.127\n3. 可用主机地址范围：192.168.1.65 ~ 192.168.1.126\n4. 可用主机数：2⁶-2=62台",
+      "explanation": ""
+    },
+    {
+      "id": 10,
+      "category": "ch04_网络层",
+      "difficulty": 2,
+      "question": "某单位分配到一个B类IP地址，网络号为129.250.0.0。该单位有4000台机器，分布在16个不同的地点。如选用子网掩码为255.255.255.0，试给每个地点分配一个子网号，并算出每个子网的最大主机数。",
+      "answer": "B类地址默认网络号16位，子网掩码255.255.255.0表示子网号8位，主机号8位。\n1. 子网划分：8位子网号可划分2⁸-2=254个可用子网，满足16个地点需求。\n2. 可分配子网号示例：129.250.1.0、129.250.2.0、...、129.250.16.0\n3. 每个子网最大主机数：2⁸-2=254台，每个子网可容纳254台主机，16个子网共可容纳4064台，满足4000台需求。",
+      "explanation": ""
+    },
+    {
+      "id": 11,
+      "category": "ch04_网络层",
+      "difficulty": 1,
+      "question": "简述ARP协议的工作过程。",
+      "answer": "ARP（地址解析协议）用于根据IP地址获取MAC地址，工作过程如下：\n1. 当主机A要向主机B发送数据时，先检查自己的ARP缓存中是否有主机B的IP-MAC映射。\n2. 若没有，主机A在本地局域网广播ARP请求报文，内容为：“我的IP是A_IP，MAC是A_MAC，请问IP为B_IP的主机MAC地址是什么？”\n3. 局域网内所有主机收到ARP请求，只有IP地址匹配的主机B接收请求，并将主机A的IP-MAC映射存入自己的ARP缓存。\n4. 主机B向主机A单播发送ARP应答报文，告知自己的MAC地址。\n5. 主机A收到应答后，将主机B的IP-MAC映射存入ARP缓存，之后就可以直接向主机B发送数据帧。",
+      "explanation": ""
+    },
+    {
+      "id": 12,
+      "category": "ch04_网络层",
+      "difficulty": 1,
+      "question": "简述IP协议的主要特点。",
+      "answer": "IP协议是TCP/IP体系的核心协议，主要特点：\n1. 无连接：发送数据前不需要预先建立连接，每个分组独立路由。\n2. 不可靠：不保证数据报一定到达，不保证按序到达，不保证差错恢复，提供尽最大努力交付。\n3. 分组交换：将数据封装为IP数据报，每个数据报独立寻址和路由。\n4. 网络互连：屏蔽底层物理网络的差异，向上提供统一的IP地址和数据报服务，实现异构网络互连。\n5. 无状态：不维护任何关于传输状态的信息，路由器简单高效。",
+      "explanation": ""
+    },
+    {
+      "id": 13,
+      "category": "ch04_网络层",
+      "difficulty": 1,
+      "question": "比较RIP和OSPF两种路由协议的主要区别。",
+      "answer": "1. 算法类型：RIP是距离向量路由协议；OSPF是链路状态路由协议。\n2. 度量值：RIP以跳数为度量，最大跳数15；OSPF以链路开销（带宽、时延等）为度量。\n3. 适用规模：RIP适合小型自治系统；OSPF适合中大型自治系统。\n4. 更新方式：RIP周期性（30秒）广播整张路由表；OSPF仅在链路状态变化时洪泛更新，且只发送变化部分。\n5. 收敛速度：RIP收敛慢，存在坏消息传得慢的问题；OSPF收敛速度快。\n6. 支持区域：RIP不支持区域划分；OSPF支持分区域管理，减少路由开销。",
+      "explanation": ""
+    },
+    {
+      "id": 14,
+      "category": "ch04_网络层",
+      "difficulty": 1,
+      "question": "什么是NAT？NAT有什么作用？",
+      "answer": "NAT（网络地址转换）是将私网IP地址转换为公网IP地址的技术。\n作用：\n1. 节省公网IP地址：多台私网主机共享少量公网IP访问互联网，缓解IPv4地址枯竭问题。\n2. 隐藏内部网络：外部网络无法直接看到内部主机的真实IP，提高网络安全性。\n3. 地址重叠解决：当两个内部网络使用相同私网地址段时，NAT可以解决地址冲突问题。\n4. 灵活部署：内部网络规划不受公网地址限制，变更ISP时无需修改内部地址。",
+      "explanation": ""
+    },
+    {
+      "id": 15,
+      "category": "ch05_传输层",
+      "difficulty": 1,
+      "question": "比较TCP和UDP的主要区别。",
+      "answer": "1. 连接性：TCP是面向连接的传输层协议，传输前需三次握手建立连接；UDP是无连接的，发送前不需要建立连接。\n2. 可靠性：TCP提供可靠交付，有确认、重传、排序机制；UDP不保证可靠交付，尽最大努力交付。\n3. 传输形式：TCP面向字节流；UDP面向报文。\n4. 开销：TCP首部开销大（最小20字节），机制复杂；UDP首部仅8字节，开销小。\n5. 流量控制：TCP有滑动窗口流量控制；UDP没有流量控制。\n6. 拥塞控制：TCP有完善的拥塞控制机制；UDP没有拥塞控制。\n7. 应用场景：TCP适用于对可靠性要求高的场景，如网页、文件传输、邮件；UDP适用于对实时性要求高的场景，如视频通话、直播、DNS查询。",
+      "explanation": ""
+    },
+    {
+      "id": 16,
+      "category": "ch05_传输层",
+      "difficulty": 1,
+      "question": "简述TCP三次握手的过程，为什么需要三次握手而不是两次？",
+      "answer": "三次握手过程：\n1. 第一次：客户端向服务器发送SYN报文，携带初始序列号seq=x，客户端进入SYN_SENT状态。\n2. 第二次：服务器收到SYN后，回复SYN+ACK报文，确认号ack=x+1，自己的初始序列号seq=y，服务器进入SYN_RCVD状态。\n3. 第三次：客户端收到SYN+ACK后，回复ACK报文，确认号ack=y+1，seq=x+1，客户端进入ESTABLISHED状态；服务器收到ACK后也进入ESTABLISHED状态，连接建立完成。\n\n为什么不是两次：\n主要为了防止已失效的连接请求报文段突然又传送到服务器，导致服务器错误建立连接，浪费资源。如果只有两次握手，服务器收到旧的SYN就会建立连接并等待数据，但客户端并没有建立连接的意图，不会发送数据，服务器资源被白白浪费。三次握手可以让客户端确认服务器的应答是有效的，避免无效连接。",
+      "explanation": ""
+    },
+    {
+      "id": 17,
+      "category": "ch05_传输层",
+      "difficulty": 1,
+      "question": "简述TCP四次挥手的过程。",
+      "answer": "TCP连接是全双工的，两个方向需要分别关闭，因此需要四次挥手：\n1. 第一次：客户端发送FIN报文，seq=u，表示客户端没有数据要发送了，请求关闭客户端到服务器的方向，客户端进入FIN_WAIT_1状态。\n2. 第二次：服务器收到FIN后，回复ACK报文，ack=u+1，seq=v，服务器进入CLOSE_WAIT状态。此时客户端到服务器方向关闭，但服务器到客户端方向还可以传输数据。客户端收到ACK后进入FIN_WAIT_2状态。\n3. 第三次：服务器数据发送完毕后，发送FIN报文，seq=w，ack=u+1，请求关闭服务器到客户端的方向，服务器进入LAST_ACK状态。\n4. 第四次：客户端收到FIN后，回复ACK报文，ack=w+1，seq=u+1，客户端进入TIME_WAIT状态。服务器收到ACK后进入CLOSED状态。客户端等待2MSL时间后也进入CLOSED状态，连接完全释放。",
+      "explanation": ""
+    },
+    {
+      "id": 18,
+      "category": "ch05_传输层",
+      "difficulty": 1,
+      "question": "TCP的TIME_WAIT状态有什么作用？为什么要等待2MSL？",
+      "answer": "TIME_WAIT是客户端主动关闭连接后进入的状态，等待2MSL（最长报文寿命）的作用：\n1. 保证最后一个ACK报文能够到达服务器：如果最后一个ACK丢失，服务器会超时重传FIN，客户端在2MSL时间内可以收到并重发ACK，同时重置2MSL计时器。如果没有TIME_WAIT，客户端直接关闭，服务器收不到ACK会一直重传FIN，无法正常关闭。\n2. 让本次连接产生的所有报文段都从网络中消失：经过2MSL时间，本次连接的所有残留报文都会在网络中过期消失，避免下一个新连接收到旧连接的残留报文，造成数据混乱。",
+      "explanation": ""
+    },
+    {
+      "id": 19,
+      "category": "ch05_传输层",
+      "difficulty": 1,
+      "question": "简述TCP滑动窗口流量控制的工作原理。",
+      "answer": "滑动窗口是TCP实现流量控制的机制，通过接收方的接收窗口大小来控制发送方的发送速率，防止接收方缓存溢出。\n工作原理：\n1. 连接建立时，双方告知对方自己的初始接收窗口大小。\n2. 发送方维护一个发送窗口，窗口内的字节可以连续发送，不需要等待确认。\n3. 接收方每收到数据并处理后，发送确认报文，同时在报文中携带自己当前的接收窗口大小（rwnd）。\n4. 发送方根据收到的确认，将发送窗口向前滑动，并根据接收方通告的窗口大小调整发送速率。\n5. 若接收方缓存满，通告窗口大小为0，发送方停止发送数据，直到接收方重新通告非零窗口。",
+      "explanation": ""
+    },
+    {
+      "id": 20,
+      "category": "ch05_传输层",
+      "difficulty": 1,
+      "question": "简述TCP拥塞控制的四个核心算法。",
+      "answer": "TCP拥塞控制通过维护拥塞窗口cwnd来控制发送速率，四个核心算法：\n1. 慢启动：连接建立后，拥塞窗口从1开始，每收到一个确认cwnd加1，每经过一个RTT cwnd翻倍，呈指数增长。目的是快速探测网络带宽。\n2. 拥塞避免：当cwnd达到慢启动阈值ssthresh后，进入拥塞避免阶段，每个RTT cwnd加1，呈线性增长，缓慢增加，避免拥塞。\n3. 快重传：当发送方连续收到三个重复确认时，立即重传丢失的报文段，不必等待重传计时器超时，加快恢复速度。\n4. 快恢复：配合快重传使用，当检测到丢包时，将ssthresh减半，cwnd设置为新的ssthresh，然后进入拥塞避免阶段，避免慢启动导致速率骤降。",
+      "explanation": ""
+    },
+    {
+      "id": 21,
+      "category": "ch06_应用层",
+      "difficulty": 1,
+      "question": "简述DNS域名解析的过程。",
+      "answer": "DNS域名解析采用递归查询和迭代查询相结合的方式，过程如下：\n1. 用户在浏览器输入域名，主机首先查询本地DNS缓存，若有对应记录则直接返回结果。\n2. 若本地缓存没有，主机向本地域名服务器发送递归查询请求。\n3. 本地域名服务器查询自己的缓存，若有记录则直接返回；若无则向根域名服务器发送迭代查询请求。\n4. 根域名服务器返回顶级域名服务器（如.com）的地址给本地域名服务器。\n5. 本地域名服务器向顶级域名服务器查询，返回权威域名服务器的地址。\n6. 本地域名服务器向权威域名服务器查询，得到对应的IP地址。\n7. 本地域名服务器将IP地址返回给主机，同时缓存该记录以便下次使用。",
+      "explanation": ""
+    },
+    {
+      "id": 22,
+      "category": "ch06_应用层",
+      "difficulty": 1,
+      "question": "简述HTTP和HTTPS的区别。",
+      "answer": "1. 安全性：HTTP是明文传输，数据容易被窃听、篡改、冒充；HTTPS在HTTP基础上加入SSL/TLS加密层，数据加密传输，安全性高。\n2. 端口：HTTP默认使用80端口；HTTPS默认使用443端口。\n3. 证书：HTTPS需要申请CA证书，证明服务器身份；HTTP不需要证书。\n4. 资源消耗：HTTPS由于加解密运算，对服务器CPU、内存消耗更大；HTTP消耗小。\n5. 速度：HTTP速度更快；HTTPS由于握手和加解密，速度稍慢。\n6. 协议层次：HTTP属于应用层协议；HTTPS是在传输层加入加密层的HTTP，工作在应用层和传输层之间。",
+      "explanation": ""
+    },
+    {
+      "id": 23,
+      "category": "ch06_应用层",
+      "difficulty": 1,
+      "question": "简述FTP的工作模式，主动模式和被动模式的区别。",
+      "answer": "FTP使用两个独立的TCP连接：控制连接（21端口，始终保持）和数据连接（临时建立，传输数据）。分为主动模式和被动模式：\n1. 主动模式（PORT）：\n- 客户端打开随机端口N，发送PORT命令告知服务器端口号。\n- 服务器主动从20端口向客户端的N端口发起连接，建立数据连接。\n- 特点：服务器主动连接客户端，客户端防火墙可能拦截入站连接。\n\n2. 被动模式（PASV）：\n- 客户端发送PASV命令，服务器打开随机端口M，告知客户端端口号。\n- 客户端主动从随机端口向服务器的M端口发起连接，建立数据连接。\n- 特点：客户端主动连接服务器，适合客户端有防火墙的场景，是目前主流模式。",
+      "explanation": ""
+    },
+    {
+      "id": 24,
+      "category": "ch06_应用层",
+      "difficulty": 1,
+      "question": "简述DHCP的工作过程。",
+      "answer": "DHCP动态主机配置协议为主机自动分配IP等参数，工作过程分为四步：\n1. 发现阶段（DHCP Discover）：客户端启动时没有IP，广播发送DHCP发现报文，寻找DHCP服务器。\n2. 提供阶段（DHCP Offer）：DHCP服务器收到发现报文后，从地址池中选择一个IP，广播发送DHCP提供报文，包含IP地址、租期等信息。\n3. 请求阶段（DHCP Request）：客户端通常选择最先收到的提供，广播发送DHCP请求报文，正式请求该IP地址。\n4. 确认阶段（DHCP Ack）：DHCP服务器收到请求后，发送DHCP确认报文，分配IP地址及子网掩码、网关、DNS等参数。客户端收到确认后完成配置。",
+      "explanation": ""
+    },
+    {
+      "id": 25,
+      "category": "ch07_网络安全与新趋势",
+      "difficulty": 1,
+      "question": "什么是数字签名？数字签名有什么作用？",
+      "answer": "数字签名是基于非对称加密技术，附加在数据后的一段数据，用于验证发送者身份和数据完整性。\n原理：发送方用自己的私钥对消息摘要进行加密，加密后的摘要就是数字签名。接收方用发送方的公钥解密签名得到摘要，同时对原始消息计算摘要，两者对比一致则验证通过。\n作用：\n1. 身份认证：确认消息确实是声称的发送方发出的，他人无法伪造。\n2. 防抵赖：发送方无法否认自己发送过该消息，因为只有自己拥有私钥。\n3. 完整性：验证消息在传输过程中没有被篡改，篡改后摘要会不一致。",
+      "explanation": ""
+    },
+    {
+      "id": 26,
+      "category": "ch07_网络安全与新趋势",
+      "difficulty": 1,
+      "question": "简述防火墙的功能和局限性。",
+      "answer": "防火墙是位于内外网之间的网络安全设备，根据预设规则控制进出网络的流量。\n主要功能：\n1. 访问控制：禁止未授权的访问进入内部网络，过滤不安全的服务和端口。\n2. 隔离网络：隔离内外网，隐藏内部网络结构和信息。\n3. 网络地址转换：实现NAT功能，隐藏内部IP。\n4. 日志审计：记录所有进出网络的访问，提供安全审计和告警。\n5. VPN支持：提供VPN功能，实现远程安全访问内网。\n\n局限性：\n1. 无法防范内部攻击和内部人员违规操作。\n2. 无法防范绕过防火墙的攻击，如物理接入、无线接入。\n3. 无法防范病毒和木马，不能查杀感染病毒的文件。\n4. 无法防范数据驱动型攻击，如恶意脚本、SQL注入等应用层攻击（普通包过滤防火墙）。\n5. 不能自动防御所有新的漏洞和攻击手段。",
+      "explanation": ""
+    },
+    {
+      "id": 27,
+      "category": "ch07_网络安全与新趋势",
+      "difficulty": 1,
+      "question": "简述集线器、交换机、路由器的区别，分别工作在OSI哪一层？",
+      "answer": "1. 集线器：\n- 工作层：物理层\n- 功能：对电信号进行放大和转发，所有端口共享带宽，处于同一冲突域和广播域。\n- 特点：半双工，无地址识别能力，性能低，已基本被淘汰。\n\n2. 交换机：\n- 工作层：数据链路层（二层交换机）\n- 功能：根据MAC地址转发数据帧，每个端口是独立冲突域，所有端口同属一个广播域。\n- 特点：全双工，独享端口带宽，转发速度快，是局域网核心设备。\n\n3. 路由器：\n- 工作层：网络层\n- 功能：根据IP地址进行路由选择和转发分组，隔离广播域，连接不同类型网络。\n- 特点：可以实现跨网段通信，支持路由协议，有防火墙、NAT等功能，用于网络出口和互连。",
+      "explanation": ""
+    },
+    {
+      "id": 28,
+      "category": "ch07_网络安全与新趋势",
+      "difficulty": 2,
+      "question": "一个100BASE-TX的以太网，速率为100Mbps，信号在电缆中的传播速度为2×10⁸m/s，若最小帧长为64字节，求该网络的最大电缆长度（冲突域直径）。",
+      "answer": "步骤1：计算发送一帧的时间\n最小帧长L=64字节=64×8=512比特\n速率R=100Mbps=100×10⁶ bps\n发送时延 Tt = L/R = 512 / (100×10⁶) = 5.12×10⁻⁶ s = 5.12 μs\n\n步骤2：CSMA/CD要求发送时延 ≥ 2倍传播时延\n传播时延 Tp ≤ Tt / 2 = 5.12 / 2 = 2.56 μs\n\n步骤3：计算最大距离\n传播速度v=2×10⁸ m/s\n最大距离 d = v × Tp = 2×10⁸ × 2.56×10⁻⁶ = 512 m\n\n所以该网络的最大电缆长度约为512米（实际标准中考虑中继器等因素，100BASE-TX规定最大网段长度为100米）。",
+      "explanation": ""
+    },
+    {
+      "id": 29,
+      "category": "ch07_网络安全与新趋势",
+      "difficulty": 1,
+      "question": "什么是子网划分？为什么要进行子网划分？",
+      "answer": "子网划分：将一个大的IP网络通过借用主机号的若干位作为子网号，划分成多个更小的逻辑子网的技术。\n\n为什么要划分子网：\n1. 提高IP地址利用率：避免大网段分配给小网络造成大量地址浪费，按需分配，节约IP地址。\n2. 隔离广播域：每个子网是独立的广播域，减少广播流量，提高网络性能和稳定性。\n3. 提高网络安全性：不同子网之间默认不能直接二层通信，便于实施访问控制策略。\n4. 便于管理和维护：可按部门、地域等划分子网，网络结构清晰，故障影响范围小，便于管理。\n5. 适应不同物理网络：不同的物理网段需要不同的网络号，子网划分可以满足多网段组网需求。",
+      "explanation": ""
+    },
+    {
+      "id": 30,
+      "category": "ch07_网络安全与新趋势",
+      "difficulty": 1,
+      "question": "简述TCP/IP协议栈中各层的主要协议。",
+      "answer": "TCP/IP协议栈分为四层，各层主要协议：\n1. 网络接口层：\n- 以太网协议、PPP协议、ARP协议、RARP协议\n- 负责将IP数据报封装成帧在物理网络上传输\n\n2. 网际层（网络层）：\n- IP协议（IPv4、IPv6）：核心协议，寻址和路由\n- ICMP协议：网际控制报文协议，差错报告和查询\n- IGMP协议：网际组管理协议，组播管理\n- 路由协议：RIP、OSPF、BGP等\n\n3. 传输层：\n- TCP协议：传输控制协议，面向连接，可靠传输\n- UDP协议：用户数据报协议，无连接，不可靠传输\n\n4. 应用层：\n- HTTP/HTTPS：超文本传输协议，网页浏览\n- FTP：文件传输协议\n- SMTP/POP3/IMAP：电子邮件相关协议\n- DNS：域名系统\n- DHCP：动态主机配置协议\n- Telnet/SSH：远程登录协议\n- SNMP：简单网络管理协议",
+      "explanation": ""
+    }
+  ]
+}

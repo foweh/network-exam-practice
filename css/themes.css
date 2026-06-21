@@ -1,0 +1,67 @@
+/* 主题切换相关样式 */
+
+.theme-transition,
+.theme-transition * {
+  transition: background var(--transition-base), color var(--transition-base), border-color var(--transition-base) !important;
+}
+
+/* 暗色主题微调 */
+[data-theme="dark"] .question-card,
+[data-theme="dark"] .panel,
+[data-theme="dark"] .stat-card {
+  box-shadow: 0 4px 12px rgba(0,0,0,0.25);
+}
+
+[data-theme="dark"] .option-label:hover {
+  background: rgba(255,255,255,0.04);
+}
+
+[data-theme="dark"] .answer-input {
+  background: #0f172a;
+}
+
+/* 聚焦高亮 */
+.question-card:focus-within {
+  border-color: var(--accent);
+  box-shadow: 0 0 0 3px var(--accent-soft);
+}
+
+/* 翻页动画 */
+.slide-in {
+  animation: slideIn 0.25s ease both;
+}
+
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* 正确/错误抖动 */
+.shake {
+  animation: shake 0.35s ease both;
+}
+
+@keyframes shake {
+  0%, 100% { transform: translateX(0); }
+  20% { transform: translateX(-6px); }
+  40% { transform: translateX(6px); }
+  60% { transform: translateX(-4px); }
+  80% { transform: translateX(4px); }
+}
+
+/* 脉冲提示 */
+.pulse {
+  animation: pulse 1.5s infinite;
+}
+
+@keyframes pulse {
+  0% { box-shadow: 0 0 0 0 rgba(37, 99, 235, 0.4); }
+  70% { box-shadow: 0 0 0 10px rgba(37, 99, 235, 0); }
+  100% { box-shadow: 0 0 0 0 rgba(37, 99, 235, 0); }
+}
